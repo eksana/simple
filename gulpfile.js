@@ -12,6 +12,8 @@ var gulp = require('gulp'),
         .pipe(gulp.dest('src/css')) // Выгружаем результата в папку app/css
 });
 
+
+
  /*gulp.task('sass', function(){ // Создаем таск "sass"
     return gulp.src('src/sass/bootstrap-grid.css') // Берем источник
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass

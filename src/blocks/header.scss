@@ -1,10 +1,49 @@
 .clr{
 	color: $accentcolor;
+}
+
+/*.block1{
+	width: 300px;
+	height: 300px;
+	background-color: magenta;
+}
+.clr{
+	color: $accentcolor;
 }	
-.home{
-	/*width: 100%;*/
-	/*height: 700px;*/
+.home-index{
+	
 	position: relative;
+	
+
+	background: url("../img/castle1.jpg")no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	text-align: center;
+	color: #FFF;
+	padding-top:50px;
+	padding-bottom:120px;
+	&:before{
+		position: absolute;
+		content:'';
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		
+		background-color: #222;
+		opacity: .7;
+		
+}
+
+	
+}	*/
+.home{
+	
+	position: relative;
+	
+
 	background: url("../img/bg2.jpg")no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -13,7 +52,7 @@
 	text-align: center;
 	color: #FFF;
 	padding-top:50px;
-	padding-bottom:200px;
+	padding-bottom:120px;
 	&:before{
 		position: absolute;
 		content:'';
@@ -30,22 +69,43 @@
 	
 }
 
+.home-nav{
+	margin-bottom: 40px;
+}
 
+.home-item-link--active{
+	color: $accentcolor;
+}
 .log{
 	font-size: 26px;
+	margin-bottom: 40px;
+	   cursor: pointer;
+
+	   color: $accentcolor; 
+
+}
+.fa-bars{
+	font-size: 25px;
+	color: $accentcolor;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.home-nav-sm{
+	display: none;
+	margin-bottom: 50px;
 }
 
 .home__title{
 	position: relative;
 	font-size: 48px;
 	color: #FFF;
-	margin-top: 250px;
+	margin-top: 130px;
 	z-index:2;
+	
 }
 .home-descr{
 	
-	padding-top: 47px;
-	padding-bottom: 32px;
+	margin-bottom: 90px;
 	color: #FFF;
 	position: relative;
 	z-index:2;
@@ -53,9 +113,14 @@
 .home-item{
 	display: inline-block;
 	margin-right: 30px;
+	
 }
-.home-item a{
+.home-item-link{
 	color: #FFF;
+	&:hover,&:focus{
+		color: $accentcolor;
+		
+	}
 }
 /*.home-nav{
 	width: 446px;
@@ -68,6 +133,11 @@
 	border-radius:7px;
 	line-height: 1.6;
 	color: #FFF;
+	&:hover,&:focus{
+		background-color: lighten( $accentcolor,5%);
+		
+	}
+	
 }
 .home-descr-link{
 	padding: 17px 50px;
@@ -76,10 +146,20 @@
 	position: relative;
 	z-index:2;
 	color: #FFF;
+	&:hover,&:focus{
+		background-color: lighten( $accentcolor,5%);
+		
+	}
 }
 a{
 	display: inline-block;
 }
 .log{
 	margin-top: 10px;
+}
+@media only screen and (max-width:480px){
+	.home__title{
+		font-size: 28px;
+		margin-top: 70px;
+	}
 }

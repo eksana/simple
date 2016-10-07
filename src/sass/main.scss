@@ -1,21 +1,22 @@
-/*.red{
-width:200px;
-height:200px;
-	background-color: blue;
-	&:hover{
-	background-color: green;
-	}
-	}*/
+
+	@import '../fonts/font-awesome/css/font-awesome.min.css';
 	@import 'bootstrap-grid.css';
 	@import 'variables.scss';
 	@import '../blocks/header.scss';
 	@import '../blocks/feature/feature.scss';
+	@import '../blocks/comunity/comunity.scss';
+	@import '../blocks/otz/otz.scss';
+	@import '../blocks/arrive/arrive.scss';
+	@import '../blocks/footer/foot.scss';
+	@import '../blocks/feature2/feature2.scss';
+	@import '../blocks/general/general.scss';
+
 
 	body{
 		font-size: 16px;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
-		    /*background-color: red;*/
+		   
 		 
 	}
