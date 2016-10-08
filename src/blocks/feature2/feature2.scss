@@ -3,6 +3,14 @@
 	
 	
 }
+#path3363,#path3367,#path3369,#path3371,#path3373,#path3375, #path3377,#path3379,#path3381,#path3383,#path3409{
+	fill:#ccaaff;
+
+&:hover{
+	fill:lighten($accentcolor,5%);
+	
+}
+}
 
 .wrapper{
 	width: 100%;

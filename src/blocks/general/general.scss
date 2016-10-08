@@ -29,9 +29,24 @@
 		height: 100%;
 		/*background-color: rgba(64,64,67,7);*/
 		background-color: #222;
-		opacity: .7;
+		opacity: .3;
 		
 }
 
 	
+}
+.home__title-index{
+	position: relative;
+	font-size: 48px;
+	color: #FFF;
+	margin-top: 130px;
+	z-index:2;
+	
+}
+.home-descr-index{
+	
+	margin-bottom: 90px;
+	color: #FFF;
+	position: relative;
+	z-index:2;
 }
