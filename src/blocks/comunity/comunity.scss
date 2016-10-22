@@ -14,6 +14,7 @@
 .im{
 	
 	width: 25%;
+	/*height:300px;*/
 	float: left;
 	border: 1px solid lightgrey;
 	-webkit-box-shadow: 2px 2px 2px #e5e5e5;
@@ -29,9 +30,36 @@
 	        transition: 3s;
 	
 }
+
+/*.im-bg1{
+	background: url("../img/kosm1.jpg")no-repeat center;
+}
+.im-bg2{
+	background: url("../img/kosm2.jpg")no-repeat center;
+}
+.im-bg3{
+	background: url("../img/kosm3.jpg")no-repeat center;
+}
+.im-bg4{
+	background: url("../img/kosm4.jpg")no-repeat center;
+}
+.im-bg5{
+	background: url("../img/kosm5.jpg")no-repeat center;
+}
+.im-bg6{
+	background: url("../img/kosm6.jpg")no-repeat center;
+}
+.im-bg7{
+	background: url("../img/kosm7.jpg")no-repeat center;
+}
+.im-bg8{
+	background: url("../img/kosm8.jpg")no-repeat center;
+}*/
+
+
 .up{
 	width: 100%;
-	height: 70px;
+	height: 82px;
 
 	top:180px;
 	left: 0;

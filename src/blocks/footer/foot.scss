@@ -7,7 +7,7 @@
 	cursor: pointer;
 	margin-left: 23px;
 	&:hover,&:focus{
-		background-color: lighten( $accentcolor,5%);
+		background-color: lighten( $redcolor,5%);
 		
 	}
 }
@@ -47,6 +47,7 @@ background-color: #222;
 	display: inline-block;
 	margin-top: 70px;
 	color: #FFF;
+	margin-left: -70px;
 }
 @media only screen and (max-width:1000px){
 	.foot-cont{

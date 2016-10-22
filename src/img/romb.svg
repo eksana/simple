@@ -1,105 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Simple</title>
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!--<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
-	<link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/owl.theme.css">-->
-	<!--<link rel="stylesheet" href="css/reset.css">-->
-	
-	
-	<!--<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />-->
-	<link rel="stylesheet" href="css/main.css">
-	
-	<!--@@include('_include/page_head.html')-->
-</head>
-<body>
-	<!------------------------------------------------------------------------------------------------------>
-	<!--<div class="clr">text</div>-->
-	<section class="home">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6 col-sm-12 col-md-2 col-lg-2">
-					<!--<a href="" class="home-logo"><div class="log">Logo</div></a>-->
-          <a href="" class="home-logo"><div class="log"><img src="img/logo.png"></div></a>
-				</div>
-
-				<div class="col-xs-6 hidden-sm hidden-md hidden-lg">
-					<!--<a href="" class="home-logo"><div class="log">Logo</div></a>-->
-					<div class="main-nav--cross"><i class="fa fa-bars" aria-hidden="true"></i></div>
-				</div>
-
-				<div class="hidden-xs col-sm-12 col-md-6 col-lg-6">
-					<nav class="home-nav">
-						<ul>
-							<li class="home-item home-item--active"><a href="#" class=" home-item-link--active">О нас</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Предложения</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">События</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Контакты</a></li>
-
-						</ul>
-					</nav>
-         
-
-</div>
-
-<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-					<nav class="home-nav-sm">
-						<ul>
-							<li class="home-item home-item--active"><a href="#" class=" home-item-link--active">О нас</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Предложения</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">События</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Контакты</a></li>
-
-						</ul>
-					</nav>
-
-				</div>				
-				<!--<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-					<a href="" class="home-link">Book a tour</a>
-				</div>-->
-			</div>
-		</div>
-		<div class="container">
-    <div class="col-md-6">
-			<!--<h1 class="home__title">Duis sed odio oleos, de sit vulputate cursus.</h1>-->
-      <h1 class="home__title">Академия красоты. SPA салон Вашей мечты.</h1>
-			<p class="home-descr">Шоколадные маски, аромотерапия, изотермические процедуры.</p>
-			<a href="" class="home-descr-link">Заказать</a>
-		</div>
-    </div>
-
-
-        
-		
-	</section>
-	<!--@@include('blocks/main-header/main-header.html')-->
-
-	<div class="wrap-forimg">
-<img class="home-add" src="img/add.jpg">
-</div>
-
-     
-<!-- -----------------------------  well round   -->
-<section class="feature2">
-  <!--<img src="img/an4.png" width="960" class="fl">-->
-    <h2 class="f-title">Комплекс услуг</h2>
-    <h3 class="f-subtitle">Наши предложения</h3>
-    <p class="f-descr">Новейшие технологии, современные методики. Передовой опыт наших специалистов к Вашим услугам. Любые Ваши желания воплотяться в нашем салоне в реальность.</p>
-
-    <div class="container">
-      <div class="r">
-	
-
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -114,9 +12,10 @@
    id="svg3346"
    version="1.1"
    inkscape:version="0.91 r13725"
-   
+   width="1210"
+   height="469"
    viewBox="0 0 1210 469"
-   sodipodi:docname="rombB.svg">
+   sodipodi:docname="romb.svg">
   <metadata
      id="metadata3352">
     <rdf:RDF>
@@ -131,11 +30,179 @@
   </metadata>
   <defs
      id="defs3350" />
-  
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="950"
+     inkscape:window-height="602"
+     id="namedview3348"
+     showgrid="true"
+     inkscape:zoom="0.94"
+     inkscape:cx="1152.7533"
+     inkscape:cy="222.02134"
+     inkscape:window-x="60"
+     inkscape:window-y="5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3346"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-235.55891,232"
+       orientation="1,0"
+       id="guide3412" />
+    <sodipodi:guide
+       position="524.81139,625"
+       orientation="0,1"
+       id="guide3414" />
+    <sodipodi:guide
+       position="23.529412,600"
+       orientation="0,1"
+       id="guide3426" />
+    <sodipodi:guide
+       position="0,652.94118"
+       orientation="1,0"
+       id="guide3428" />
+    <sodipodi:guide
+       position="-103.57143,675"
+       orientation="1,0"
+       id="guide3430" />
+    <sodipodi:guide
+       position="-432.14286,744.04762"
+       orientation="0,1"
+       id="guide3435" />
+    <sodipodi:guide
+       position="-50,658.82353"
+       orientation="1,0"
+       id="guide3437" />
+    <sodipodi:guide
+       position="-103.57143,625"
+       orientation="0,1"
+       id="guide3439" />
+    <sodipodi:guide
+       position="-446.42857,653.57143"
+       orientation="0,1"
+       id="guide3441" />
+    <sodipodi:guide
+       position="-609.52381,851.19048"
+       orientation="0,1"
+       id="guide3462" />
+    <sodipodi:guide
+       position="-1015.4762,976.19048"
+       orientation="0,1"
+       id="guide3464" />
+    <sodipodi:guide
+       position="-647.61905,944.04762"
+       orientation="1,0"
+       id="guide3468" />
+    <sodipodi:guide
+       position="-609.52381,858.33333"
+       orientation="1,0"
+       id="guide3470" />
+    <sodipodi:guide
+       position="-998.80952,1186.9048"
+       orientation="0,1"
+       id="guide3472" />
+    <sodipodi:guide
+       position="-1021.4286,790.47619"
+       orientation="0,1"
+       id="guide3474" />
+    <sodipodi:guide
+       position="-838.09524,960.71429"
+       orientation="1,0"
+       id="guide3476" />
+    <sodipodi:guide
+       position="-1046.1587,276"
+       orientation="1,0"
+       id="guide3492" />
+    <sodipodi:guide
+       position="-1212.0946,1018.7008"
+       orientation="1,0"
+       id="guide3494" />
+    <sodipodi:guide
+       position="-1101.5843,220"
+       orientation="1,0"
+       id="guide3496" />
+    <sodipodi:guide
+       position="-780.95238,976.19048"
+       orientation="1,0"
+       id="guide3500" />
+    <sodipodi:guide
+       position="-917.85714,917.85714"
+       orientation="-0.70710678,0.70710678"
+       id="guide3502" />
+    <sodipodi:guide
+       position="-1270.2381,976.19048"
+       orientation="1,0"
+       id="guide3504" />
+    <sodipodi:guide
+       position="-666.66667,886.90476"
+       orientation="0,1"
+       id="guide3506" />
+    <sodipodi:guide
+       position="-1033.3333,1083.3333"
+       orientation="0,1"
+       id="guide3524" />
+    <sodipodi:guide
+       position="-1208.3333,1215.4762"
+       orientation="0,1"
+       id="guide3526" />
+    <sodipodi:guide
+       position="-1196.7516,1151.5748"
+       orientation="-0.70710678,0.70710678"
+       id="guide3528" />
+    <sodipodi:guide
+       position="-1058.6649,965.55118"
+       orientation="-0.70710678,0.70710678"
+       id="guide3530" />
+    <sodipodi:guide
+       position="-1150.7227,965.55118"
+       orientation="0.70710678,0.70710678"
+       id="guide3532" />
+    <sodipodi:guide
+       position="-138.56406,-80"
+       orientation="0.70710678,0.70710678"
+       id="guide3534" />
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid3536"
+       units="mm"
+       empspacing="5"
+       spacingy="0"
+       visible="false" />
+    <sodipodi:guide
+       position="512.68704,600"
+       orientation="0,1"
+       id="guide3540" />
+    <sodipodi:guide
+       position="512.68704,600"
+       orientation="0,1"
+       id="guide3544" />
+    <sodipodi:guide
+       position="-1141.7232,414.61999"
+       orientation="-0.5,0.8660254"
+       id="guide3546" />
+    <sodipodi:guide
+       position="360.26657,192"
+       orientation="1,0"
+       id="guide3696" />
+  </sodipodi:namedview>
   <path
-     
+     style="fill:#ccaaff"
      id="path3363"
-     
+     sodipodi:type="arc"
+     sodipodi:cx="-191.00722"
+     sodipodi:cy="153.63307"
+     sodipodi:rx="52.739727"
+     sodipodi:ry="51.372486"
+     sodipodi:start="4.7481159"
+     sodipodi:end="4.5468794"
+     sodipodi:open="true"
      d="m -189.12339,102.29337 a 52.739727,51.372486 0 0 1 50.85029,50.5906 52.739727,51.372486 0 0 1 -49.31417,52.01346 52.739727,51.372486 0 0 1 -55.8101,-45.35931 52.739727,51.372486 0 0 1 43.70102,-56.5755" />
   <path
      style="fill:#ccaaff"
@@ -449,14 +516,14 @@
      style="fill:#c8beb7"
      id="path3543"
      sodipodi:type="arc"
-     sodipodi:cx="38.589333"
-     sodipodi:cy="258.04044"
-     sodipodi:rx="17.721081"
-     sodipodi:ry="17.62657"
+     sodipodi:cx="41.780823"
+     sodipodi:cy="258.04111"
+     sodipodi:rx="14.529592"
+     sodipodi:ry="15.498231"
      sodipodi:start="4.7481159"
      sodipodi:end="4.5468794"
      sodipodi:open="true"
-     d="m 39.222318,240.42511 a 17.721081,17.62657 0 0 1 17.086211,17.3583 17.721081,17.62657 0 0 1 -16.570059,17.8465 17.721081,17.62657 0 0 1 -18.752759,-15.56337 17.721081,17.62657 0 0 1 14.683985,-19.4118" />
+     d="M 42.29981,242.55277 A 14.529592,15.498231 0 0 1 56.30887,257.81512 14.529592,15.498231 0 0 1 42.723006,273.50672 14.529592,15.498231 0 0 1 27.347537,259.82256 14.529592,15.498231 0 0 1 39.387,242.75467" />
   <path
      style="fill:#c8beb7"
      id="path3545"
@@ -473,17 +540,17 @@
      style="fill:#c8beb7"
      id="path3547"
      sodipodi:type="arc"
-     sodipodi:cx="942.01398"
-     sodipodi:cy="243.12544"
+     sodipodi:cx="945.20544"
+     sodipodi:cy="243.65753"
      sodipodi:rx="16.300678"
-     sodipodi:ry="15.061676"
+     sodipodi:ry="14.529592"
      sodipodi:start="4.7481159"
      sodipodi:end="4.5468794"
      sodipodi:open="true"
-     d="m 942.59623,228.07338 a 16.300678,15.061676 0 0 1 15.71669,14.83244 16.300678,15.061676 0 0 1 -15.24191,15.2496 16.300678,15.061676 0 0 1 -17.24967,-13.2987 16.300678,15.061676 0 0 1 13.50702,-16.58713" />
+     d="m 945.78769,229.13721 a 16.300678,14.529592 0 0 1 15.7167,14.30846 16.300678,14.529592 0 0 1 -15.24192,14.71087 16.300678,14.529592 0 0 1 -17.24966,-12.82889 16.300678,14.529592 0 0 1 13.50702,-16.00116" />
   <path
      style="fill:#c8beb7;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 124.70442,128.9523 223.13105,80.202799 124.41911,124.39205 Z"
+     d="M 124.70442,123.63315 223.13105,85.521948 123.35528,121.20056 Z"
      id="path3559"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
@@ -512,13 +579,13 @@
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:#ac9d93;fill-rule:evenodd;stroke:#000000;stroke-width:0.95596915px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 295.02342,113.92919 339.7637,188.1407 297.54568,112.74288 Z"
+     d="M 297.15108,118.18451 339.7637,188.1407 299.67334,116.9982 Z"
      id="path3573"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:#ac9d93;fill-rule:evenodd;stroke:#000000;stroke-width:1.19357228px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 411.78579,224.77284 538.11238,152.69933 411.36997,222.19546 Z"
+     d="M 411.78579,224.77284 534.92089,151.6355 411.36997,222.19546 Z"
      id="path3575"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
@@ -530,7 +597,7 @@
      sodipodi:nodetypes="cccc" />
   <path
      style="fill:#ac9d93;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 801.51623,128.28729 624.58814,151.4841 804.61131,124.64699 Z"
+     d="M 801.51623,128.28729 624.58814,151.4841 800.35599,124.64699 Z"
      id="path3583"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
@@ -611,7 +678,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
   <path
-     style="fill-opacity:1"
+     style="fill:#e580ff;fill-opacity:1"
      id="path3482"
      sodipodi:type="arc"
      sodipodi:cx="-656.54767"
@@ -641,18 +708,18 @@
      id="path3498"
      style="fill:#dedbe3;fill-opacity:1" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e580ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1029.7619,-356 -105.9523,0 -55.9524,92.85715 55.9524,83.33333 105.9523,0 54.7619,-83.33333 z"
      id="path3508"
      inkscape:connector-curvature="0" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e580ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1041.6667,-336.95238 c 0,1.19048 0,0 0,0 z"
      id="path3510"
      inkscape:connector-curvature="0" />
   <path
      sodipodi:type="star"
-     style="fill-opacity:1"
+     style="fill:#e580ff;fill-opacity:1"
      id="path3512"
      sodipodi:sides="5"
      sodipodi:cx="-466.66669"
@@ -669,7 +736,7 @@
      inkscape:transform-center-y="-3.4821834" />
   <path
      sodipodi:type="star"
-     style="fill-opacity:1"
+     style="fill:#e580ff;fill-opacity:1"
      id="path3518"
      sodipodi:sides="5"
      sodipodi:cx="-440.4762"
@@ -697,7 +764,7 @@
      sodipodi:open="true"
      d="m -1094.7715,-719.18072 a 113.04692,106.70242 0 0 1 108.99695,105.07843 113.04692,106.70242 0 0 1 -105.70425,108.03375 113.04692,106.70242 0 0 1 -119.6283,-94.21285 113.04692,106.70242 0 0 1 93.6726,-117.50928" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e580ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1104.6938,-718.00789 -76.7149,26.57482 -30.6859,77.09977 30.6859,82.34905 76.7149,26.5748 92.0578,-35.43307 30.68594,-70.86614 -36.63834,-79.05887 z"
      id="path3538"
      inkscape:connector-curvature="0"
@@ -708,19 +775,19 @@
      id="path3542"
      inkscape:connector-curvature="0" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e580ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1011.5177,253 0,-32 27.71284,-16 27.71281,16 0,32 -27.16072,15.44791 z"
      id="path3548"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#e580ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -796.7434,321 0,-32 27.71284,-16 27.71281,16 0,32 -27.16072,15.44791 z"
      id="path3548-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 30.228456,151.58573 0,-50.83784 47.003373,-25.418885 47.003311,25.418885 0,50.83784 -46.656811,25.6454 z"
      id="path3548-7"
      inkscape:connector-curvature="0"
@@ -730,9 +797,9 @@
      inkscape:connector-curvature="0"
      id="path3577"
      d="m 221.21776,104.88923 0,-50.837842 47.00338,-25.41889 47.00331,25.41889 0,50.837842 -46.65681,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 318.18774,251.60915 0,-50.83784 47.00338,-25.41889 47.00331,25.41889 0,50.83784 -46.65681,25.6454 z"
      id="path3580"
      inkscape:connector-curvature="0"
@@ -742,15 +809,15 @@
      inkscape:connector-curvature="0"
      id="path3582"
      d="m 490.25477,386.4922 0,-50.83784 47.00338,-25.41889 47.00331,25.41889 0,50.83784 -46.65681,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
      sodipodi:nodetypes="ccccccc"
      inkscape:connector-curvature="0"
      id="path3584"
      d="m 157.78627,375.55574 0,-50.83784 47.00338,-25.41889 47.00331,25.41889 0,50.83784 -46.65681,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 890.52935,438.98722 0,-50.83784 47.00338,-25.41889 47.00331,25.41889 0,50.83784 -46.65681,25.6454 z"
      id="path3586"
      inkscape:connector-curvature="0"
@@ -760,7 +827,7 @@
      inkscape:connector-curvature="0"
      id="path3588"
      d="m 716.27502,298.27138 0,-50.83784 47.00338,-25.41889 47.00331,25.41889 0,50.83784 -46.65681,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
      style="fill:#ccaaff"
      id="path3590"
@@ -774,7 +841,7 @@
      sodipodi:open="true"
      d="m 973.92966,-217.46623 a 52.739727,51.372486 0 0 1 50.85034,50.59061 52.739727,51.372486 0 0 1 -49.31421,52.01346 52.739727,51.372486 0 0 1 -55.81011,-45.35931 52.739727,51.372486 0 0 1 43.70103,-56.57551" />
   <path
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 803.03763,150.26457 0,-50.837841 47.00338,-25.41889 47.00331,25.41889 0,50.837841 -46.65681,25.6454 z"
      id="path3592"
      inkscape:connector-curvature="0"
@@ -784,7 +851,7 @@
      inkscape:connector-curvature="0"
      id="path3596"
      d="m 1097.5931,327.43529 0,-50.83784 47.0033,-25.41889 47.0034,25.41889 0,50.83784 -46.6569,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
      d="m 1052.9649,73.523946 a 16.300678,14.529592 0 0 1 15.7167,14.308454 16.300678,14.529592 0 0 1 -15.2419,14.71088 16.300678,14.529592 0 0 1 -17.2496,-12.828898 16.300678,14.529592 0 0 1 13.507,-16.001154"
      sodipodi:open="true"
@@ -798,7 +865,7 @@
      id="path3598"
      style="fill:#c8beb7" />
   <path
-     style="fill-opacity:1"
+     style="fill:#d35f8d;fill-opacity:1"
      id="path3600"
      sodipodi:type="arc"
      sodipodi:cx="332.55374"
@@ -851,7 +918,7 @@
        y="113.58016">ияние</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.74999997px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.74999997px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="42.933193"
      y="132.00633"
      id="text3624"
@@ -863,7 +930,7 @@
        y="132.00633">Сияние</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:80%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:80%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="58.779533"
      y="140.63359"
      id="text3628"
@@ -889,7 +956,7 @@
        id="tspan3636">волокон</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="324.45731"
      y="222.16031"
      id="text3638"
@@ -900,7 +967,7 @@
        y="222.16031">Жизненная</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:110%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:110%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="335.90768"
      y="241.58015"
      id="text3642"
@@ -922,7 +989,7 @@
        y="-64.587784">активность</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="269.31024"
      y="71.106873"
      id="text3650"
@@ -933,7 +1000,7 @@
        y="71.106873">Активность</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="230.75836"
      y="92.053436"
      id="text3658"
@@ -944,7 +1011,7 @@
        y="92.053436">коллагена</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="171.27345"
      y="352.84732"
      id="text3662"
@@ -957,11 +1024,11 @@
      sodipodi:nodetypes="ccccccc"
      inkscape:connector-curvature="0"
      id="path3666"
-     d="m 536.92588,178.20838 0,-50.83785 47.00338,-25.41889 47.00331,25.41889 0,50.83785 -46.65681,25.6454 z"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     d="m 535.86205,179.27221 0,-50.83785 47.00338,-25.41889 47.00331,25.41889 0,50.83785 -46.65681,25.6454 z"
+     style="fill:#d35f8d;fill-rule:evenodd;stroke:#000000;stroke-width:1.64150608px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="548.44989"
      y="156.9646"
      id="text3668"
@@ -972,7 +1039,7 @@
        y="156.9646">Упругость</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="509.71371"
      y="353.39694"
      id="text3672"
@@ -983,7 +1050,7 @@
        y="353.39694">Водный</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="511.24042"
      y="376.26718"
      id="text3676"
@@ -994,7 +1061,7 @@
        y="376.26718">баланс</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="818.64978"
      y="126.74046"
      id="text3680"
@@ -1005,7 +1072,7 @@
        y="126.74046">Дыхание</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="728.88361"
      y="273.97711"
      id="text3684"
@@ -1016,7 +1083,7 @@
        y="273.97711">Свежесть</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:120%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="909.31738"
      y="417.91113"
      id="text3688"
@@ -1027,7 +1094,7 @@
        y="417.91113">Красота</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:110%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:110%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffd5e5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="1144.5643"
      y="304.26718"
      id="text3692"
@@ -1037,159 +1104,3 @@
        x="1144.5643"
        y="304.26718">Здоровье</tspan></text>
 </svg>
-
-
-</section>
-
-	<!-------------------------------------------------------------------->
-	<section class="comunity">
-		<h2 class="c-title">Наши предложения</h2>
-		<h3 class="c-subtitle">У нас Вы найдете</h3>
-
-		<div class="container">
-			<div class="im im-bg1"><img src="img/kosm11.jpg" alt="foto" class="block" width="188" height="300">
-				<div class="up">884 Likes</div>
-			</div>
-			<div class="im im-bg2"><img src="img/kosm21.jpg" alt="foto" class="block" width="188" height="300">
-				<div class="up">1102 Likes</div>
-			</div>
-			<div class="im im-bg3"><img src="img/kosm31.jpg" alt="foto" class="block" width="188" height="300">
-				<div class="up">756 Likes</div>
-			</div>
-			<div class="im im-bg4">
-				<img src="img/kosm41.jpg" alt="foto" class="block" width="188" height="300">
-				<div class="up">952 Likes</div>
-			</div>
-		</div>
-
-	
-
-	<div class="container">
-		<div class="im im-bg5"><img src="img/kosm61.jpg" alt="foto" class="block" width="188" height="350">
-			<div class="up">934 Likes</div>
-		</div>
-		<div class="im im-bg6"><img src="img/kosm71.jpg" alt="foto" class="block" width="188" height="300">
-			<div class="up">1123 Likes</div>
-		</div>
-		<div class="im im-bg7"><img src="img/kosm81.jpg" alt="foto" class="block" width="188" height="300">
-			<div class="up">876 Likes</div>
-		</div>
-		<div class="im im-bg8"><img src="img/kosm51.jpg" alt="foto" class="block" width="188" height="300">
-			<div class="up">1305 Likes</div>
-		</div>
-
-	</div>
-</section>		
-
-
-<!-------------------------------------------------------------------------------------------->
-
-<section class="otzivi">
-	<h2 class="c-title">Отзывы</h2>
-	<h3 class="c-subtitle">Что говорят наши постоянные клиенты </h3>
-
-	<div class="container">
-		<div class="row">
-
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="who-foto" ><img src="img/girl1.jpg" alt="" width="70" height="70" id="f">
-
-				</div>
-				<div class="who">
-					<h2 class="who-title">Людмила Полонская, инженер:</h2>
-					<p class="who-descr">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-					<i class="fa fa-quote-right"></i>	
-				</div>
-			</div>
-
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="who-foto"><img src="img/girl2.jpg" alt="" width="70" height="70" id="s"></div>
-				<div class="who">
-					<h2 class="who-title">Вероника Туркина, дизайнер:</h2>
-					<p class="who-descr">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.  </p>
-					<i class="fa fa-quote-right"></i>	
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="who-foto" ><img src="img/girl3.jpg" alt="" width="70" height="70" id="th"></div>
-				<div class="who">
-					<h2 class="who-title">Ольга Никонова, домохозяйка:</h2>
-					<p class="who-descr">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-					<i class="fa fa-quote-right"></i>	
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-</section>
-
-
-<!---------------------------------------------------------------------------------------------------->
-
-<section class="arrive">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<div class="arrive-block">
-					<h2 class="arrive-title">Как добраться?</h2>
-					<p class="arrive-descr">Лермонтовская ул.4,<br/>3 этаж, комната 24,<br/>С-Петербург, Tx.</p>
-					<span class="arrive-phone">Тел: 1 (471) 256 1245</span><br/>
-					<span class="arrive-email"> Email: info@collabo-orbit.com</span>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=nxzDTjkf1VUU0rJaB_6cEobcNMWbIUGm&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-
-			</div>
-		</div>
-	</div>
-
-
-</section>
-
-<footer class="foot">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12  col-md-12  col-lg-12">
-				<div class="foot-cont">	
-					<div class="foot-icon"><i class="fa fa-twitter"></i></div>
-					<div class="foot-icon"><i class="fa fa-facebook"></i></div>
-					<div class="foot-icon"><i class="fa fa-instagram"></i></div>
-					<div class="foot-icon"><i class="fa fa-yelp"></i></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<ul class="foot-ul">
-							<li class="home-item home-item--active"><a href="#" class=" home-item-link--active">о нас</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Участники</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Контакты</a></li>
-							<li class="home-item"><a href="#" class="home-item-link">Конфедициальность</a></li>
-
-						</ul>
-
-	<div class="foot-sp">С-Петербург, 2016</div>
-
-</footer>
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
-		<!--<script src="libs/jquery/jquery-2.1.3.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js"></script> 
-		<script src="libs/owl/owl.carousel.min.js"></script>
-		<script src="js/owl.js"></script>-->
-<script src="libs/jquery/jquery-2.1.3.min.js"></script>
-		<script src="js/common.js"></script>
-
-
-
-	</body>
-	</html>			
-
-
-
-
-
-
-
