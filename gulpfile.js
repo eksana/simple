@@ -25,7 +25,7 @@ var gulp = require('gulp'),
 
  
 
-gulp.task('scripts', function() {
+/*gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
         'src/libs/jquery/jquery-2.1.3.min.js', // Берем jQuery
         'src/js/common.js' // Берем common.js
@@ -47,11 +47,11 @@ gulp.task('css-libs', ['sass'], function() {
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
         .pipe(gulp.dest('build/css')); // Выгружаем в папку app/css
-});
+});*/
 
 gulp.task('img', function() {
     return gulp.src('src/img/**/*') // Берем все изображения из app
-        .pipe(cache(imagemin({  // Сжимаем их с наилучшими настройками с учетом кеширования
+       .pipe(cache(imagemin({  // Сжимаем их с наилучшими настройками с учетом кеширования
             interlaced: true,
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
