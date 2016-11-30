@@ -10,7 +10,7 @@
 	@import '../blocks/footer/foot.scss';
 	@import '../blocks/feature2/feature2.scss';
 	@import '../blocks/general/general.scss';
-
+@import "node_modules/susy/sass/susy.scss";
 
 	body{
 		font-size: 16px;

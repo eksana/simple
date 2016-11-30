@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(../fonts/font-awesome/css/font-awesome.min.css);
 @import url(bootstrap-grid.css);
+/*$maincolor:orange;*/
 .clr {
   color: #ea2cd4; }
 
@@ -52,6 +53,15 @@
 
 	
 }*/
+.beaty-header {
+  /*background-color: red;*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#222), to(transparent));
+  background: -webkit-linear-gradient(top, #222, transparent);
+  background: linear-gradient(top, #222, transparent);
+  position: fixed;
+  z-index: 12;
+  width: 100%; }
+
 .home {
   position: relative;
   /*  background: url("../img/girlAfter2.jpg")no-repeat center center;*/
@@ -552,7 +562,10 @@ img {
   cursor: pointer;
   margin-left: 23px; }
   .foot-icon:hover, .foot-icon:focus {
-    background-color: #d279a6; }
+    /*background-color: lighten( $redcolor,5%);*/
+    color: #ea2cd4;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
 
 .foot {
   padding-top: 70px;

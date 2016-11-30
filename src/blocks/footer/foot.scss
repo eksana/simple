@@ -7,9 +7,18 @@
 	cursor: pointer;
 	margin-left: 23px;
 	&:hover,&:focus{
-		background-color: lighten( $redcolor,5%);
+		/*background-color: lighten( $redcolor,5%);*/
+
+		color: $maincolor;
+		-webkit-transition: all 1s;
+		   -moz-transition: all 1s;
+		    -ms-transition: all 1s;
+		     -o-transition: all 1s;
+		        transition: all 1s;
 		
 	}
+		
+	
 }
 .foot{
 	padding-top: 70px;
