@@ -21,8 +21,15 @@ var gulp = require('gulp'),
         .pipe(gulp.dest('src/css')) // Выгружаем результата в папку app/css
 });
 
-
-
+//sussy
+/*gulp.task('sass', function() {
+  return gulp.src('scss/*.scss')
+      .pipe(sass({
+          outputStyle: 'compressed',
+          includePaths: ['node_modules/susy/sass']
+      }).on('error', sass.logError))
+      .pipe(gulp.dest('dist/css'));
+});*/
  
 
 /*gulp.task('scripts', function() {
