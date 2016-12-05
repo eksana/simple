@@ -10,8 +10,8 @@
 	@import '../blocks/footer/foot.scss';
 	@import '../blocks/feature2/feature2.scss';
 	@import '../blocks/general/general.scss';
-@import "node_modules/susy/sass/susy.scss";
-
+	@import "node_modules/susy/sass/susy.scss";
+@import '../blocks/mixitup_forbuty/mixitup_forbuty.scss';
 	body{
 		font-size: 16px;
 		-webkit-box-sizing: border-box;
