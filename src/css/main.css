@@ -963,14 +963,17 @@ img {
   display: none; }
 
 .mixitup_forbuty {
-  padding: 70px 0;
-  height: 400px; }
+  padding: 70px 0; }
 
 .mixitup_forbuty__title {
   text-align: center; }
 
 .filter {
   margin: 0 auto; }
+
+.map {
+  height: 100px;
+  background-color: green; }
 
 body {
   font-size: 16px;
