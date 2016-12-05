@@ -87,7 +87,8 @@ $('.home-nav-sm').slideToggle();
 			}, 1000);
 		});
 		return false;
-	});		
+	});	
+
 	});
 $(document).ready(function() {
  
@@ -108,4 +109,10 @@ $(document).ready(function() {
  
   });
  
+});
+
+//mixitUp
+		
+$(document).ready(function() {
+    $('#Container').mixItUp();
 });
