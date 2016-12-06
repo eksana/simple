@@ -54,7 +54,7 @@
 	
 }*/
 .beaty-header {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   /*background: linear-gradient(top, #222, transparent);*/
   position: fixed;
   z-index: 12;
@@ -963,13 +963,25 @@ img {
   display: none; }
 
 .mixitup_forbuty {
-  padding: 70px 0; }
+  padding: 70px 0;
+  min-height: 500px; }
 
 .mixitup_forbuty__title {
   text-align: center; }
 
 .filter {
-  margin: 0 auto; }
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  margin-right: 20px; }
+
+.filter-active {
+  border-bottom: 1px solid #ea2cd4; }
+
+.ulforbeauty {
+  text-align: center;
+  margin-bottom: 70px; }
 
 .map {
   height: 100px;

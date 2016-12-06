@@ -116,3 +116,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#Container').mixItUp();
 });
+
+$(document).ready(function() {
+    $('.filter').click(function(){
+    	$('.filter').removeClass('filter-active');
+    	$(this).addClass('filter-active');
+
+});
+    });
