@@ -28,3 +28,31 @@ margin-right: 20px;
 height:100px;
 background-color:green;
 }
+.padding{
+	padding: 10px;
+	&:hover{
+		background-color:red;
+
+	}
+
+}
+/*.for_img{
+	width: 400px;
+	height: 300px;
+background: url("../img/beauty_img1/make_up1.jpg")no-repeat;
+
+}*/
+
+@media only screen and (max-width:760px){
+	.padding{
+		
+		margin-left: 30%;
+	}
+}
+@media only screen and (max-width:470px){
+	.padding{
+		
+		margin-left: 3%;
+	}
+}
+
