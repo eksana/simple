@@ -959,6 +959,12 @@ img {
 .main {
   padding-bottom: 340px; }
 
+.about_beauty {
+  padding: 70px 0; }
+
+.title {
+  text-align: center; }
+
 #Container .mix {
   display: none; }
 
@@ -1000,11 +1006,28 @@ background: url("../img/beauty_img1/make_up1.jpg")no-repeat;
 }*/
 @media only screen and (max-width: 760px) {
   .padding {
-    margin-left: 30%; } }
+    position: relative;
+    left: 40%; } }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 440px) {
   .padding {
-    margin-left: 3%; } }
+    position: relative;
+    left: 10%; } }
+
+@media only screen and (max-width: 400px) {
+  .padding {
+    position: relative;
+    left: 5%; } }
+
+@media only screen and (max-width: 380px) {
+  .padding {
+    position: relative;
+    left: 1%; } }
+
+@media only screen and (max-width: 350px) {
+  .padding {
+    position: relative;
+    left: 0; } }
 
 body {
   font-size: 16px;
