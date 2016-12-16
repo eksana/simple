@@ -1,9 +1,22 @@
-form {
+
+.form_header{
   background-color: #F7F7F7;
   padding: 25px 30px;
   border: #67bc5c 5px solid;
   border-radius: 5px;
+  margin-top:40px;
+  position: relative;
+  display:none;
 }
+.fa-times{
+  position: absolute;
+  top:15px;
+  right:15px;
+  color: $accentcolor;
+  cursor: pointer;
+  font-size:30px;
+}
+
 form h2 {
   text-transform: uppercase;
   margin-top: 0;

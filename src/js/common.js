@@ -42,6 +42,22 @@ $('.home-nav-sm').slideToggle();
 		});
 	});
 
+	$("a.scroll1").click(function() {
+		$.scrollTo($(".div1"), 800, {
+			offset: -90
+		});
+	});
+	$("a.scroll2").click(function() {
+		$.scrollTo($(".div2"), 800, {
+			offset: -90
+		});
+	});
+	$("a.scroll3").click(function() {
+		$.scrollTo($(".div3"), 800, {
+			offset: -90
+		});
+	});
+
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
 	var owl = $(".carousel");
@@ -114,15 +130,16 @@ var top_show = 150; // В каком положении полосы прокр�
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
+	$(".button").click(function() {
 		$.ajax({
 			type: "GET",
 			url: "mail.php",
-			data: $("form").serialize()
+			data: $("#open_form").serialize()
 		}).done(function() {
 			alert("Спасибо за заявку!");
 			setTimeout(function() {
-				$.fancybox.close();
+				//$.fancybox.close();
+				$('#open_form').close();
 			}, 1000);
 		});
 		return false;
@@ -162,4 +179,15 @@ $(document).ready(function() {
     	$(this).addClass('filter-active');
 
 });
+
+$('.home-descr-link').click(function(event){
+	event.preventDefault();
+	$('.form_header').fadeIn();
+
+});
+$('.fa-times').click(function(){
+	$('.form_header').fadeOut();
+	});
+
     });
+

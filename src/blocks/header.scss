@@ -192,6 +192,8 @@ section{
 	color: #FFF;
 	&:hover,&:focus{
 		background-color: lighten( $maincolor,15%);
+		 transition:all 1s;
+
 		
 	}
 }
