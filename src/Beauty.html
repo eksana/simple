@@ -28,6 +28,13 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+
+     <div class="cssload-loader">
+      <div class="cssload-inner cssload-one"></div>
+      <div class="cssload-inner cssload-two"></div>
+      <div class="cssload-inner cssload-three"></div>
+    </div>
+
   	<header class="beaty-header">
      <div class="container">
       <div class="row">
@@ -74,13 +81,7 @@
   			</div>
   		</div>			
   	</header>
-  	<body>
-     <div class="cssload-loader">
-      <div class="cssload-inner cssload-one"></div>
-      <div class="cssload-inner cssload-two"></div>
-      <div class="cssload-inner cssload-three"></div>
-    </div>
-
+  
     <section class="myhome">
      <div class="container">
       <div class="col-sm-12 col-xs-12 col-md-6 ">
@@ -88,6 +89,30 @@
        <h1 class="home__title">Академия красоты. SPA салон Вашей мечты.</h1>
        <p class="home-descr">Шоколадные маски, аромотерапия, изотермические процедуры.</p>
        <a href="" class="home-descr-link">Заказать</a>
+
+        <form id="open_form">
+                <h2>Связаться с нами</h2>
+                <label>
+                  <span>Ваше имя:</span>
+                  <input type="text" name="name" required />
+                </label>
+                <label>
+                  <span>Ваш телефон:</span>
+                  <input type="text" name="phone" required />
+                </label>
+                <label>
+                  <span>Ваш город:</span>
+                  <span class="label_select">
+                    <select name="city">
+                      <option>Москва</option>
+                      <option>Караганда</option>
+                    </select>
+                  </span>
+                </label>
+                <div class="button_wrap">
+                  <button class="button btn_green">Отправить заявку</button>
+                </div>
+              </form>
      </div>
 
      <div class="col-sm-12 col-xs-12 col-md-6">
@@ -263,34 +288,104 @@
 </div>
 </section>	
 
+<section class="testimonial">
+<!--<section class="otzivi">-->
+
+  <h2 class="otzivi__title">Отзывы</h2>
+
+
+
+
+  <div id="owl-demo1" class="owl-carousel owl-theme">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">  
+        <div class="item">
+          <div class="cardswrap__wrapforeach">
+
+            <img src="img/girlSw1.jpg" alt="отзыв клиента" class="cardswrap__card cardswrap__card--feedback1" >
+            <p class="cardswrap__name">Екатерина В.</p>
+            <i class="fa fa-vk" aria-hidden="true"></i>
+
+            <p class="cardswrap__p">Наша семья счастлива, что открыла для себя Green Valley. Замечательный комфортный, отдых. Хорошие места, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+
+            <div class="datawrap">
+              <span class="datawrap__otziv-title">Дата отдыха</span><br/>
+              <span class="datawrap__otziv-date">23.12.2007</span>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">  
+        <div class="item">
+          <div class="cardswrap__wrapforeach">
+
+            <img src="img/girlSw1.jpg" alt="отзыв клиента" class="cardswrap__card cardswrap__card--feedback1">
+            <p class="cardswrap__name">Екатерина В.</p>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+            <p class="cardswrap__p">Наша семья счастлива, что открыла для себя Green Valley. Замечательный комфортный, отдых. Хорошие места, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+            <div class="datawrap">
+              <span class="datawrap__otziv-title">Дата отдыха</span><br/>
+              <span class="datawrap__otziv-date">23.12.2007</span>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">  
+        <div class="item">
+          <div class="cardswrap__wrapforeach">
+
+            <img src="img/girlSw1.jpg" alt="отзыв клиента" class="cardswrap__card cardswrap__card--feedback1">
+            <p class="cardswrap__name">Екатерина В.</p>
+            <i class="fa fa-vk" aria-hidden="true"></i>
+
+            <p class="cardswrap__p">Наша семья счастлива, что открыла для себя Green Valley. Замечательный комфортный, отдых. Хорошие места, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+
+            <div class="datawrap">
+              <span class="datawrap__otziv-title">Дата отдыха</span><br/>
+              <span class="datawrap__otziv-date">23.12.2007</span>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">  
+        <div class="item">
+          <div class="cardswrap__wrapforeach">
+
+            <img src="img/girlSw1.jpg" alt="отзыв клиента" class="cardswrap__card cardswrap__card--feedback1">
+            <p class="cardswrap__name">Екатерина В.</p>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+            <p class="cardswrap__p">Наша семья счастлива, что открыла для себя Green Valley. Замечательный комфортный, отдых. Хорошие места, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+            <div class="datawrap">
+              <span class="datawrap__otziv-title">Дата отдыха</span><br/>
+              <span class="datawrap__otziv-date">23.12.2007</span>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+<a href="otzivi.html" class="btn btn--border">все отзывы</a>
+
+  </div>
+</section>
 
 <section class="map">
   <div id="top">Наверх</div>
 
         
-           <form id="open_form">
-                <h2>Связаться с нами</h2>
-                <label>
-                  <span>Ваше имя:</span>
-                  <input type="text" name="name" required />
-                </label>
-                <label>
-                  <span>Ваш телефон:</span>
-                  <input type="text" name="phone" required />
-                </label>
-                <label>
-                  <span>Ваш город:</span>
-                  <span class="label_select">
-                    <select name="city">
-                      <option>Москва</option>
-                      <option>Караганда</option>
-                    </select>
-                  </span>
-                </label>
-                <div class="button_wrap">
-                  <button class="button btn_green">Отправить заявку</button>
-                </div>
-              </form>
+          
   123
 </section>
 <footer class="foot">
