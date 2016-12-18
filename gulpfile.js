@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     //pngquant    = require('imagemin-pngquant'),
    // cache       = require('gulp-cache'), // Подключаем библиотеку кеширова
    autoprefixer = require('gulp-autoprefixer'),// Подключаем библиотеку для автомат
+   fileinclude = require('gulp-file-include'),
 
 /*gulp.task('mytask', function() {
     console.log('Привет, я таск!');
@@ -20,6 +21,19 @@ var gulp = require('gulp'),
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('src/css')) // Выгружаем результата в папку app/css
 });
+
+ gulp.task('fileinclude', function() {
+  gulp.src(['src/Beauty.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    //.pipe(gulp.dest('simple/'));
+    //.pipe(gulp.dest('src/'));
+    .pipe(gulp.dest('src/'));
+});//выгружается в отдельный файл src, т.е. тудаже в источник
+
+
 
 //sussy
 /*gulp.task('sass', function() {

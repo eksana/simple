@@ -1,0 +1,41 @@
+.wrap_for_action{
+	text-align: center;
+}
+.action_title{
+	font-family: Roboto;
+
+}
+.action{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+}
+.nav_action{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.home-descr-link{
+	padding: 17px 50px;
+	border-radius: 7px;
+	background-color: $maincolor;
+	/*  opacity:.7;*/
+	position: relative;
+	z-index:2;
+	color: #FFF;
+	&:hover,&:focus{
+		background-color: lighten( $maincolor,15%);
+		 transition:all 1s;
+
+		
+	}
+}
+.nav_item{
+	line-height: 2;
+}
+.fa-check{
+	float: left;
+	margin-right: 10px;
+	font-size: 30PX;
+	color: $greencolor;
+}

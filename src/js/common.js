@@ -85,6 +85,7 @@ $(document).ready(function() {
  
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
+      loop : true,
       paginationSpeed : 400,
       singleItem:true
  
@@ -189,5 +190,22 @@ $('.fa-times').click(function(){
 	$('.form_header').fadeOut();
 	});
 
-    });
 
+
+  //});  
+
+//animation on scroll
+$(window).scroll(function(){
+$('.action_animate .animated').each(function(){
+	var imgPos=$(this).offset().top;
+	var topOfwindow=$(window).scrollTop();
+	if(imgPos < topOfwindow + 200){
+		$(this).addClass('fadeInLeft');
+		//$(this).animated ('fadeInLeft', 'fadeOutLeft');
+	}
+
+
+});
+
+});
+});
