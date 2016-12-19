@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$('.fa-bars').click(function(){
 		//$('.home-nav-sm').css('display','block');
-$('.home-nav-sm').slideToggle();
+		$('.home-nav-sm').slideToggle();
 
 	});
-/*---------------end document ready-----------*/
+	/*---------------end document ready-----------*/
 
 //Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
@@ -80,24 +80,24 @@ $('.home-nav-sm').slideToggle();
 	});
 
 	//owl testimonial
-$(document).ready(function() {
-	$("#owl-demo1").owlCarousel({
- 
+	$(document).ready(function() {
+		$("#owl-demo1").owlCarousel({
+
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       loop : true,
       paginationSpeed : 400,
       singleItem:true
- 
+
       // "singleItem:true" is a shortcut for:
       //items : 1 ,
       //itemsDesktop : false
       // itemsDesktopSmall : false,
       // itemsTablet: false,
       // itemsMobile : false
- 
+
   });
- });
+	});
 
 	//Кнопка "Наверх"
 	//Документация:
@@ -112,22 +112,22 @@ $(document).ready(function() {
 
 	//topUp
 	
-  $(document).ready(function() {
+	$(document).ready(function() {
 var top_show = 150; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
   var delay = 1000; // Задержка прокрутки
-  	
+
     $(window).scroll(function () { // При прокрутке попадаем в эту функцию
-      /* В зависимости от положения полосы прокрукти и значения top_show, скрываем или открываем кнопку "Наверх" */
-      if ($(this).scrollTop() > top_show) $('#top').fadeIn();
-      else $('#top').fadeOut();
+    	/* В зависимости от положения полосы прокрукти и значения top_show, скрываем или открываем кнопку "Наверх" */
+    	if ($(this).scrollTop() > top_show) $('#top').fadeIn();
+    	else $('#top').fadeOut();
     });
     $('#top').click(function () { // При клике по кнопке "Наверх" попадаем в эту функцию
-      /* Плавная прокрутка наверх */
-      $('body, html').animate({
-        scrollTop: 0
-      }, delay);
+    	/* Плавная прокрутка наверх */
+    	$('body, html').animate({
+    		scrollTop: 0
+    	}, delay);
     });
-  });
+});
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
@@ -146,66 +146,75 @@ var top_show = 150; // В каком положении полосы прокр�
 		return false;
 	});	
 
-	});
+});
 $(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
+
+	$("#owl-demo").owlCarousel({
+
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
       autoPlay: 6000 
- 
+
       // "singleItem:true" is a shortcut for:
       // items : 1, 
       // itemsDesktop : false,
       // itemsDesktopSmall : false,
       // itemsTablet: false,
       // itemsMobile : false
- 
+
   });
- 
+
 });
 
 //mixitUp
-		
-$(document).ready(function() {
-    $('#Container').mixItUp();
-});
 
 $(document).ready(function() {
-    $('.filter').click(function(){
-    	$('.filter').removeClass('filter-active');
-    	$(this).addClass('filter-active');
-
+	$('#Container').mixItUp();
 });
 
-$('.home-descr-link').click(function(event){
-	event.preventDefault();
-	$('.form_header').fadeIn();
+$(document).ready(function() {
+	$('.filter').click(function(){
+		$('.filter').removeClass('filter-active');
+		$(this).addClass('filter-active');
 
-});
-$('.fa-times').click(function(){
-	$('.form_header').fadeOut();
+	});
+
+	$('.home-descr-link').click(function(event){
+		event.preventDefault();
+		$('.form_header').fadeIn();
+
+	});
+	$('.fa-times').click(function(){
+		$('.form_header').fadeOut();
 	});
 
 
 
-  //});  
+  });  
 
 //animation on scroll
-$(window).scroll(function(){
-$('.action_animate .animated').each(function(){
-	var imgPos=$(this).offset().top;
-	var topOfwindow=$(window).scrollTop();
-	if(imgPos < topOfwindow + 200){
-		$(this).addClass('fadeInLeft');
-		//$(this).animated ('fadeInLeft', 'fadeOutLeft');
+/*$(window).scroll(function(){
+	$('.action_animate .animated').each(function(){
+		var imgPos=$(this).offset().top;
+		var topOfwindow=$(window).scrollTop();
+		if(imgPos < topOfwindow + 200){
+			//$(this).addClass("fadeOut",'fadeInLeft');
+		$(this).animated ('fadeInLeft', 'fadeOutLeft');
 	}
 
 
-});
+});*/
 
-});
-});
+//});
+
+$(window).load(function(){
+	
+		$('.action_animate ').animated("fadeInLeft");
+	});
+
+
+//});
+
+////});
