@@ -156,6 +156,7 @@ $(document).ready(function() {
       paginationSpeed : 400,
       singleItem:true,
       autoPlay: 6000 
+      
 
       // "singleItem:true" is a shortcut for:
       // items : 1, 

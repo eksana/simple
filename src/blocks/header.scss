@@ -22,7 +22,32 @@
 .swiper_img{
 	width:100%;
 	height:auto;
-}   	
+}  
+
+.owl-next{
+	width: 20px;
+	height: 20px;
+	background-color: #999;
+	border-radius:50%;
+	color: transparent;
+	display: inline-block;
+	margin-left: 20px;
+	&:hover{
+		background-color: #222;
+}
+}	
+.owl-prev{
+	width: 20px;
+	height: 20px;
+	background-color: #222;
+	border-radius:50%;
+	color: transparent;
+	display: inline-block;
+} 
+.owl-buttons{
+	padding: 30px 0;
+	text-align: center;
+}	
 /*.home-index{
 	
 	position: relative;
