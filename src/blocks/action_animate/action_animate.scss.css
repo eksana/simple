@@ -58,7 +58,7 @@ background-image: linear-gradient(to right, rgba(211, 212, 218, 0), rgba(211, 21
 }
 @media screen and (max-width:400px){
 	.title{
-		font-size: 20PX;
+		font-size: 20px;
 	}
 }
 

@@ -86,7 +86,7 @@
   position: fixed;
   z-index: 12;
   top: 0;
-  left: 70px; }
+  left: 0; }
 
 .myhome {
   position: relative;
@@ -1184,13 +1184,18 @@ left: 0;
           transform: translateY(0%) scale(1); }
 
 .form_header {
+  width: 80%;
+  height: 400px;
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  margin-left: -40%;
   background-color: #F7F7F7;
   padding: 25px 30px;
   border: #67bc5c 5px solid;
   -webkit-border-radius: 5px;
           border-radius: 5px;
-  margin-top: 40px;
-  position: relative;
+  z-index: 10;
   display: none; }
 
 .fa-times {
@@ -1275,6 +1280,16 @@ form .button_wrap {
   font-size: 16px;
   font-family: "RobotoBold", sans-serif; }
 
+@media screen and (max-width: 530px) {
+  .form_header {
+    top: 10px;
+    height: 350px; } }
+
+@media screen and (max-width: 400px) {
+  .form_header {
+    top: 130px;
+    height: 400px; } }
+
 .testimonial {
   padding: 120px 0;
   width: 100%;
@@ -1350,7 +1365,8 @@ form .button_wrap {
 
 .action {
   padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  position: relative; }
 
 .nav_action {
   list-style-type: none;
@@ -1450,7 +1466,7 @@ form .button_wrap {
 
 @media screen and (max-width: 400px) {
   .title {
-    font-size: 20PX; } }
+    font-size: 20px; } }
 
 .get_in_toch {
   text-align: center; }

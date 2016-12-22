@@ -8,7 +8,7 @@
 .action{
 	padding-top: 70px;
 	padding-bottom: 70px;
-	
+	position: relative;
 }
 .nav_action{
 	list-style-type: none;

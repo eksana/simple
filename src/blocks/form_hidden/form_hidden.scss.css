@@ -1,11 +1,17 @@
 
 .form_header{
+  width: 80%;
+  height: 400px;
+  position: fixed;
+  top:150px;
+  left:50%;
+  margin-left:-40%;
   background-color: #F7F7F7;
   padding: 25px 30px;
   border: #67bc5c 5px solid;
   border-radius: 5px;
-  margin-top:40px;
-  position: relative;
+  z-index:10;
+  
   display:none;
 }
 .fa-times{
@@ -89,4 +95,18 @@ form .button_wrap {
     border-radius: 3px;
     font-size: 16px;
     font-family: "RobotoBold", sans-serif;
+}
+@media screen and (max-width:530px){
+  .form_header{
+    top:10px;
+    height: 350px;
+  }
+
+}
+@media screen and (max-width:400px){
+  .form_header{
+    top:130px;
+    height: 400px;
+  }
+
 }

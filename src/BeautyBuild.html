@@ -17,7 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="favicon.png" />
 		<!--<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />-->
-		<link rel="stylesheet" href="sass/bootstrap-grid.css" />
+		<!--<link rel="stylesheet" href="sass/bootstrap-grid.css" />
 		<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 		<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
@@ -25,9 +25,10 @@
 		<link rel="stylesheet" href="css/fonts.css" />
 		
 		<link rel="stylesheet" href="css/media.css" />
-		<link rel="stylesheet" href="libs/animate/animate.css"/>
+		<link rel="stylesheet" href="libs/animate/animate.css"/>-->
 		<!--<link rel="stylesheet" href="css/animate.min.css">-->
-		<link rel="stylesheet" href="css/main.css" />
+		<!--<link rel="stylesheet" href="css/main.css" />-->
+		<link rel="stylesheet" href="BeautyBuild/css/beauty_libs.min.css" />
 		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>-->
 	</head>
 	<body>
@@ -95,9 +96,34 @@
 					<!--<h1 class="home__title">Duis sed odio oleos, de sit vulputate cursus.</h1>-->
 					<h1 class="home__title">Академия красоты. SPA салон Вашей мечты.</h1>
 					<p class="home-descr">Шоколадные маски, аромотерапия, изотермические процедуры.</p>
-					<a href="" class="home-descr-link link-form">Заказать звонок</a>
+					<a href="" class="home-descr-link">Заказать звонок</a>
 
-					
+					<form id="open_form" class="form_header">
+						<h2>Связаться с нами</h2>
+						<label>
+							<span>Ваше имя:</span>
+							<input type="text" name="username" required />
+						</label>
+						<label>
+							<span>Ваш телефон:</span>
+							<input type="text" name="phone" required />
+						</label>
+						<label>
+							<span>Ваш город:</span>
+							<span class="label_select">
+								<select name="city">
+									<option>Санкт-Петербург</option>
+									<option>Москва</option>
+									<option>Другой город</option>
+								</select>
+							</span>
+						</label>
+						<div class="button_wrap">
+							<button  class="button btn_green">Отправить заявку</button>
+						</div>
+						<i class="fa fa-times"></i>
+
+					</form>
 				</div>
 
 				<div class="col-sm-12 col-xs-12 col-md-6">
@@ -113,8 +139,6 @@
 
 			</div>
 		</section>
-
-		
 
 		<section class="action">
 			<div class="container">
@@ -136,7 +160,7 @@
 										<i class="fa fa-check"></i><li class="nav_item">Подробно расскажем о новейших стилях и материалах для маникюра</li>
 
 									</ul>
-									<a href="" class="home-descr-link link-form">Записаться</a>
+									<a href="" class="home-descr-link">Записаться</a>
 								</div>
 							</div>
 						</div>
@@ -172,7 +196,7 @@
 						<div class="around_png">
 
 
-							<img src="img/about/perfume.png" alt="Маникюр" class="icon"/>
+							<img src="img/about/perfume.png" alt="Маникюр" class="icon">
 						</div>
 						<h2 class="title_about">Наши цены доступны каждому</h2>
 						<p class="descr_about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam reprehenderit necessitatibus tenetur impedit beatae, nisi, in esse, atque sequi sed cum numquam ad hic culpa dignissimos consequatur ducimus. Totam.</p>
@@ -188,7 +212,7 @@
 				<div class="row">
 					<div class="wrap_animation animated gr4">
 						<h2 class="title">Только 3 дня - ламинирование ногтей в подарок</h2>
-						<a href="" class="home-descr-link_anim link-form">Записаться</a>
+						<a href="" class="home-descr-link_anim">Записаться</a>
 					</div>
 				</div>
 			</div>
@@ -211,7 +235,7 @@
 
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
-							<a href="" class="home-descr-link__toch link-form">Записаться</a>
+							<a href="" class="home-descr-link__toch">Записаться</a>
 						</div>
 					</div>
 				</div>
@@ -230,7 +254,7 @@
 							
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
-							<a href="" class="home-descr-link__toch link-form">Записаться</a>
+							<a href="" class="home-descr-link__toch">Записаться</a>
 						</div>
 					</div>
 				</div>
@@ -248,7 +272,7 @@
 							
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-4">
-							<a href="" class="home-descr-link__toch link-form">Записаться</a>
+							<a href="" class="home-descr-link__toch">Записаться</a>
 						</div>
 					</div>
 				</div>
@@ -277,7 +301,7 @@
 						<div class="col-xs-12 col-sm-6 col-md-4">
 
 							<div class="mix category-1" data-myorder="1">
-								<a id="single_image7" class="fancybox" href="img/beauty_img1/make_up1.jpg">
+								<a id="single_image" class="fancybox" href="img/beauty_img1/make_up1.jpg">
 									<div class="wrap_formake"   data-title="Посмотреть">
 										<img src="img/beauty_img1/make_up1.jpg" alt="The Last of us" class="padding"/>
 									</div>
@@ -287,7 +311,7 @@
 						<div class="col-xs-12 col-sm-6 col-md-4">
 
 							<div class="mix category-1" data-myorder="1">
-								<a id="single_image8" class="fancybox" href="img/beauty_img1/make_up2.jpg">
+								<a id="single_image" class="fancybox" href="img/beauty_img1/make_up2.jpg"/>
 								<div class="wrap_formake"   data-title="Посмотреть">
 									<img src="img/beauty_img1/make_up2.jpg" alt="GTA V" class="padding"/>
 								</div>
@@ -297,7 +321,7 @@
 					<div class="col-xs-12 col-sm-6  col-md-4">
 
 						<div class="mix category-1" data-myorder="1">
-							<a id="single_image9" class="fancybox" href="img/beauty_img1/make_up3.jpg">
+							<a id="single_image" class="fancybox" href="img/beauty_img1/make_up3.jpg"/>
 							<div class="wrap_formake"   data-title="Посмотреть">
 								<img src="img/beauty_img1/make_up3.jpg" alt="GTA V" class="padding"/>
 							</div>
@@ -312,7 +336,7 @@
 			<div class="row">   
 				<div class="col-sm-6 col-xs-12 col-md-4">
 					<div class="mix category-2" data-myorder="2">
-						<a id="single_image1" class="fancybox" href="img/beauty_img1/nail1.jpg" alt="GTA V">
+						<a id="single_image" class="fancybox" href="img/beauty_img1/nail1.jpg" alt="GTA V">
 
 
 							<div class="wrap_formake"   data-title="Посмотреть">
@@ -322,7 +346,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-6  col-md-4">
 						<div class="mix category-2" data-myorder="2">
-							<a id="single_image2" class="fancybox" href="img/beauty_img1/nail2.jpg" alt="GTA V">
+							<a id="single_image" class="fancybox" href="img/beauty_img1/nail2.jpg" alt="GTA V">
 								<div class="wrap_formake"   data-title="Посмотреть">
 									<img src="img/beauty_img1/nail2.jpg" alt="Mirror Edge" class="padding"/>
 								</div>
@@ -330,7 +354,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-6  col-md-4">
 							<div class="mix category-2" data-myorder="2">
-								<a id="single_image3" class="fancybox" href="img/beauty_img1/nail3.jpg" alt="GTA V">
+								<a id="single_image" class="fancybox" href="img/beauty_img1/nail3.jpg" alt="GTA V">
 
 									<div class="wrap_formake"   data-title="Посмотреть">
 										<img src="img/beauty_img1/nail3.jpg" alt="Mirror Edge" class="padding" />
@@ -349,7 +373,7 @@
 						<div class="col-sm-6 col-xs-12 col-md-4">
 
 							<div class="mix category-3" data-myorder="3"> 
-								<a id="single_image4" class="fancybox" href="img/beauty_img1/hear1.jpg" alt="Mirror Edge" alt="GTA V">
+								<a id="single_image" class="fancybox" href="img/beauty_img1/hear1.jpg" alt="Mirror Edge" alt="GTA V">
 									<div class="wrap_formake"   data-title="Посмотреть">
 										<img src="img/beauty_img1/hear1.jpg" alt="Mirror Edge" class="padding" />
 									</div>
@@ -358,7 +382,7 @@
 						</div>
 						<div class="col-xs-12 col-sm-6  col-md-4">
 							<div class="mix category-3" data-myorder="3">
-								<a id="single_image5" class="fancybox" href="img/beauty_img1/hear2.jpg" alt="Mirror Edge" >
+								<a id="single_image" class="fancybox" href="img/beauty_img1/hear2.jpg" alt="Mirror Edge" >
 									<div class="wrap_formake"   data-title="Посмотреть">
 										<img src="img/beauty_img1/hear2.jpg" alt="Mirror Edge" class="padding" /> 
 									</div>
@@ -368,7 +392,7 @@
 
 						<div class="col-xs-12 col-sm-6  col-md-4">
 							<div class="mix category-3" data-myorder="3">
-								<a id="single_image6" class="fancybox" href="img/beauty_img1/hear3.jpg" alt="Mirror Edge">
+								<a id="single_image" class="fancybox" href="img/beauty_img1/hear3.jpg" alt="Mirror Edge">
 									<div class="wrap_formake"   data-title="Посмотреть">
 										<img src="img/beauty_img1/hear3.jpg" alt="Mirror Edge" class="padding" /> 
 									</div>
@@ -480,33 +504,6 @@
 
 		
 	</section>
-
-	<form id="open_form" class="form_header">
-						<h2>Связаться с нами</h2>
-						<label>
-							<span>Ваше имя:</span>
-							<input type="text" name="username" required />
-						</label>
-						<label>
-							<span>Ваш телефон:</span>
-							<input type="text" name="phone" required />
-						</label>
-						<!--<label>
-							<span>Ваш город:</span>
-							<span class="label_select">
-								<select name="city">
-									<option>Санкт-Петербург</option>
-									<option>Москва</option>
-									<option>Другой город</option>
-								</select>
-							</span>
-						</label>-->
-						<div class="button_wrap">
-							<button  class="button btn_green">Отправить заявку</button>
-						</div>
-						<i class="fa fa-times"></i>
-
-					</form>
 	<footer class="foot div5">
 		<div class="container">
 			<div class="row">
@@ -539,7 +536,7 @@
 		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 		<script src="libs/respond/respond.min.js"></script>
 		<![endif]-->
-		<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+		<!--<script src="libs/jquery/jquery-2.1.3.min.js"></script>
 		<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 		<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
@@ -552,7 +549,8 @@
 		<script src="libs/jquery.mixitup.js"></script>
 		
 		<script src="libs/animate/animate-css.js"></script>
-		<script src="js/common.js"></script>
+		<script src="js/common.js"></script>-->
+		<script src="js/common.min.js"></script>
 		<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 		<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 	</body>

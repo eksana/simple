@@ -192,8 +192,8 @@ $(document).ready(function() {
 		$(this).addClass('filter-active');
 
 	});
-
-	$('.home-descr-link').click(function(event){
+//form fadeIn Out
+	$('.link-form').click(function(event){
 		event.preventDefault();
 		$('.form_header').fadeIn();
 
