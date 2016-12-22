@@ -2,6 +2,7 @@
 	@import '../fonts/font-awesome/css/font-awesome.min.css';
 	@import '../fonts/love/css/love.css';
 	@import 'bootstrap-grid.css';
+
 	@import 'variables.scss';
 	@import '../blocks/header.scss';
 	@import '../blocks/feature/feature.scss';
@@ -19,6 +20,8 @@
 	@import '../blocks/testimonial/testimonial.scss';
 	@import '../blocks/action/action.scss';
 	@import '../blocks/action_animate/action_animate.scss';
+	@import '../blocks/get_in_toch/get_in_toch.scss';
+	@import 'fonts.css';
 	
 	body{
 		font-size: 16px;

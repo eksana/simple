@@ -56,6 +56,17 @@ $(document).ready(function(){
 		$.scrollTo($(".div3"), 800, {
 			offset: -90
 		});
+
+		$("a.scroll4").click(function() {
+		$.scrollTo($(".div4"), 800, {
+			offset: -90
+		});
+	});
+		$("a.scroll5").click(function() {
+		$.scrollTo($(".div5"), 800, {
+			offset: -90
+		});
+	});
 	});
 
 	//Каруселька

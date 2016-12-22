@@ -53,7 +53,7 @@ var gulp = require('gulp'),
         ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
-        .pipe(gulp.dest('build/js')); // Выгружаем в папку app/js
+        .pipe(gulp.dest('build/js')); // Выгружаем в папку build/js
 });
 
 
