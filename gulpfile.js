@@ -15,12 +15,12 @@ var gulp = require('gulp'),
  sass = require('gulp-sass'); //Подключаем Sass пакет
  //sass = require('gulp-scss'); //Подключаем Sass пакет
 
- /*gulp.task('sass', function(){ // Создаем таск "sass"
-    return gulp.src('src/sass/**//**.scss') // Берем источник
+ gulp.task('sass', function(){ // Создаем таск "sass"
+    return gulp.src('src/sass/**/*.scss') // Берем источник
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest('src/css')) // Выгружаем результата в папку app/css
-});*/
+});
 
  gulp.task('fileinclude', function() {
   gulp.src(['src/Beauty.html'])
@@ -46,24 +46,42 @@ var gulp = require('gulp'),
 });*/
  
 
-/*gulp.task('scripts', function() {
+gulp.task('scripts', function() {
     return gulp.src([ // Берем все необходимые библиотеки
-        'src/libs/jquery/jquery-2.1.3.min.js', // Берем jQuery
-        'src/js/common.js' // Берем common.js
+        // Берем jQuery
+        
+        'src/libs/jquery.mixitup.js', 
+        'src/libs/animate/animate-css.js', 
+        'src/libs/countdown/jquery.countdown-ru.js', 
+        'src/libs/countdown/jquery.plugin.js', 
+        'src/libs/fancybox/jquery.fancybox.js', 
+         'src/libs/landing-nav/navigation.js', 
+         'src/libs/owl-carousel/owl-carousel.js',
+         'src/js/common.js'// Берем common.js
+
         ])
         .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
-        .pipe(gulp.dest('build/js')); // Выгружаем в папку build/js
-});*/
+        .pipe(gulp.dest('BeautyBuild/js')); // Выгружаем в папку build/js
+});
 
 
 
 gulp.task('css-libs', ['sass'], function() {
     return gulp.src(['src/css/bootstrap-grid.css',
-                      'src/css/main.css',
+                      
                       'src/css/variables.css',
+                      'src/libs/fancybox/jquery.fancybox.css',
+                      'src/libs/owl-carousel/owl.carousel.css',
+                      'src/libs/countdown/jquery.countdown.css',
+
+                      'src/libs/animate/animate.css',
+                      
+
                        'src/css/fonts.css',
-                       'src/css/font-awesome/css/font-awesome.min.css'
+                       'src/css/main.css'
+
+                       
         ]) 
 
      .pipe(concat('beauty_libs.css')) // Собираем их в кучу в новом файле libs.min.css 
