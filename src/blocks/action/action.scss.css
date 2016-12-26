@@ -32,6 +32,7 @@
 }
 .nav_item{
 	line-height: 2;
+	list-style-image: url('../img/check.png');
 }
 .fa-check{
 	float: left;

@@ -80,7 +80,7 @@
 	
 }*/
 .beaty-header{
-
+	width: 100%;
 	background-color: rgba(0, 0, 0, .3);
 	/*background: linear-gradient(top, #222, transparent);*/
 	position: fixed;
@@ -92,10 +92,7 @@
 	
 	position: relative;
 	
-
-	/*  background: url("../img/girlAfter2.jpg")no-repeat center center;*/
-	/*background: url("../img/girlSw3.jpg")no-repeat center center;*/
-	background: url("../img/beauty_img/shop1.jpg")no-repeat center center;
+	/*background: url("../img/beauty_img/shop1.jpg")no-repeat center center;*/
 	background-position: center;
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
@@ -302,7 +299,7 @@ img {
 	/*position: relative;*/
 	position:absolute;
 	left: calc(50% - 31px);
-
+	top:100px;
 	width: 62px;
 	height: 62px;
 	border-radius: 50%;

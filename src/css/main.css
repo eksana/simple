@@ -81,6 +81,7 @@
 	
 }*/
 .beaty-header {
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   /*background: linear-gradient(top, #222, transparent);*/
   position: fixed;
@@ -90,9 +91,7 @@
 
 .myhome {
   position: relative;
-  /*  background: url("../img/girlAfter2.jpg")no-repeat center center;*/
-  /*background: url("../img/girlSw3.jpg")no-repeat center center;*/
-  background: url("../img/beauty_img/shop1.jpg") no-repeat center center;
+  /*background: url("../img/beauty_img/shop1.jpg")no-repeat center center;*/
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -269,6 +268,7 @@ img {
   position: absolute;
   left: -webkit-calc(50% - 31px);
   left: calc(50% - 31px);
+  top: 100px;
   width: 62px;
   height: 62px;
   border-radius: 50%;
@@ -645,8 +645,7 @@ img {
 .foot-sp {
   display: inline-block;
   margin-top: 70px;
-  color: #FFF;
-  margin-left: -70px; }
+  color: #FFF; }
 
 @media only screen and (max-width: 1000px) {
   .foot-cont {
@@ -1009,6 +1008,11 @@ img {
 
 .title_about, .descr_about {
   text-align: center; }
+
+.fa-heart-o {
+  font-size: 33px;
+  margin-left: 12px;
+  margin-top: 16px; }
 
 .icon {
   display: inline-block;
@@ -1388,7 +1392,8 @@ form .button_wrap {
     transition: all 1s; }
 
 .nav_item {
-  line-height: 2; }
+  line-height: 2;
+  list-style-image: url("../img/check.png"); }
 
 .fa-check {
   float: left;

@@ -71,7 +71,7 @@ gulp.task('css-libs', ['sass'], function() {
     return gulp.src(['src/css/bootstrap-grid.css',
                       
                       'src/css/variables.css',
-                      'src/libs/fancybox/jquery.fancybox.css',
+                      
                       'src/libs/owl-carousel/owl.carousel.css',
                       'src/libs/countdown/jquery.countdown.css',
 
@@ -79,7 +79,8 @@ gulp.task('css-libs', ['sass'], function() {
                       
 
                        'src/css/fonts.css',
-                       'src/css/main.css'
+                       'src/css/main.css',
+                       'src/libs/fancybox/jquery.fancybox.css'
 
                        
         ]) 
