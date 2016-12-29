@@ -22,6 +22,13 @@ var gulp = require('gulp'),
         .pipe(gulp.dest('src/css')) // Выгружаем результата в папку app/css
 });
 
+ gulp.task('sass_index', function(){ // Создаем таск "sass"
+    return gulp.src('src_index/sass_index/**/*.scss') // Берем источник
+        .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
+        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
+        .pipe(gulp.dest('src_index/css_index')) // Выгружаем результата в папку app/css
+});
+
  gulp.task('fileinclude', function() {
   gulp.src(['src/Beauty.html'])
     .pipe(fileinclude({
