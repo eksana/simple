@@ -201,7 +201,7 @@ $(document).ready(function() {
 	$('.fa-times').click(function(){
 		$('.form_header').fadeOut();
 	});
-
+$('#open_form').validate();
 
 
   });  
