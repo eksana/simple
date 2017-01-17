@@ -12,7 +12,7 @@
 	@import '../blocks/arrive/arrive.scss';
 	@import '../blocks/footer/foot.scss';
 	@import '../blocks/feature2/feature2.scss';
-	@import '../blocks/general/general.scss';
+	/*@import '../blocks/general/general.scss';*/
 	@import '../blocks/section_about_beauty/section_about_beauty.scss';
 	@import "node_modules/susy/sass/susy.scss";
 	@import '../blocks/section_mixitup_forbeauty/mixitup_forbuty.scss';
@@ -21,6 +21,7 @@
 	@import '../blocks/action/action.scss';
 	@import '../blocks/action_animate/action_animate.scss';
 	@import '../blocks/get_in_toch/get_in_toch.scss';
+	@import '../blocks/exampleForNav/example_nav.scss';
 	@import 'fonts.css';
 	
 	body{
