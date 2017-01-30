@@ -1,0 +1,26 @@
+.cat-about{
+	position: relative;	
+	width: 100%;
+	height:300px;
+	background: url('../img_cat/catGray.jpg') no-repeat  center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	opacity: .1;
+	/*&:before{
+		position: absolute;
+		content:'';
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		
+		background-color: #222;
+		opacity: .9;
+		
+}*/
+
+}
+.bright{
+	opacity: 1;
+	color: #999;
+}

@@ -36,6 +36,13 @@ gulp.task('sass_tuttor', function(){ // Создаем таск "sass"
         .pipe(gulp.dest('src_tuttor/css_tutor')) // Выгружаем результата в папку app/css
 });
 
+gulp.task('sass_cat', function(){ // Создаем таск "sass"
+    return gulp.src('src_cat/sass_cat/**/*.scss') // Берем источник
+        .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
+        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
+        .pipe(gulp.dest('src_cat/css_cat')) // Выгружаем результата в папку app/css
+});
+
  gulp.task('fileinclude', function() {
   gulp.src(['src/Beauty.html'])
     .pipe(fileinclude({
