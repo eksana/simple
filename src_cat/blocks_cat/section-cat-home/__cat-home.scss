@@ -10,7 +10,7 @@
 	        background-size: cover;
 	text-align: center;
 	color: #FFF;
-	padding-top:50px;
+	padding-top:210px;
 	padding-bottom:70px;
 	&:before{
 		position: absolute;
@@ -24,6 +24,8 @@
 		opacity: .9;
 		
 }
+
+		
 }
 .home__title{
 	position: relative;
@@ -32,7 +34,7 @@
 	/*margin-top: 130px;*/
 	z-index:2;
 	text-align: center;
-	
+	font-family: 'Playfair Display', serif;
 }
 .home-descr{
 	
@@ -46,6 +48,26 @@
 	display: inline-block;
 	margin-right: 20px;
 	
+}
+.item{
+	position: relative;
+	margin-top: -100px;
+}
+.addTreug{
+	width: 100%;
+}
+.add{
+	width: 0;
+		height: 0;
+		
+		border-top:150px solid rgba(0, 68, 102, .7);
+		
+		border-left: 200px solid transparent;
+		border-right: 200px solid transparent;
+		margin: -90px auto;
+		/*background-color:rgba(0, 68, 102, .7);*/
+
+
 }
 .home-item-link{
 	color: #FFF;
