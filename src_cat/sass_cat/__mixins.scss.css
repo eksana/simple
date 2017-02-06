@@ -1,0 +1,27 @@
+.add{
+	position: relative;
+	width: 0;
+		height: 0;
+		
+		border-top:150px solid rgba(0, 68, 102, .7);
+		
+		border-left: 200px solid transparent;
+		border-right: 200px solid transparent;
+		/*border-left: 70px solid transparent;*/
+		margin: -90px auto;
+		/*&:after{
+			content:'';
+			position: absolute;
+			width: 100px;
+			height: 2px;
+			top:0;
+			left: 0;
+			background-color: rgba(0, 68, 102, .7);
+		};*/
+		
+/*&:hover{
+	transform:translateY(10px);
+	transform:scale(1.2);
+	transition: all 1s;
+}*/
+}

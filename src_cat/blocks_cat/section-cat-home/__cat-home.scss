@@ -1,3 +1,4 @@
+
 .cat-home{
 	width: 100%;
 	/*height: 100vh;*/
@@ -56,7 +57,7 @@
 .addTreug{
 	width: 100%;
 }
-.add{
+/*.add{
 	width: 0;
 		height: 0;
 		
@@ -66,9 +67,13 @@
 		border-right: 200px solid transparent;
 		margin: -90px auto;
 		/*background-color:rgba(0, 68, 102, .7);*/
-
-
+/*&:hover{
+	transform:translateY(10px);
+	transform:scale(1.2);
+	transition: all 1s;
 }
+
+}*/
 .home-item-link{
 	color: #FFF;
 	&:hover,&:focus{
