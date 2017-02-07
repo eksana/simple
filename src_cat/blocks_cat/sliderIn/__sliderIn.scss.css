@@ -1,0 +1,18 @@
+.cat-slick{
+	padding: 50px;
+	background-color: black;
+}
+.sliderIn{
+	width: 100%;
+	height: auto;
+	border:20px solid rgba(0, 68, 102, 0.7);
+}
+	
+
+.wrapSlider{
+	box-shadow: inset 12px 12px 15px rgba(154, 147, 140, 0.5);
+}
+.title_slick{
+color: #fff;
+text-align: center;
+}

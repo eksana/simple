@@ -1,0 +1,62 @@
+.testimonials{
+	padding-top: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: url('../img_cat/cat_bg.jpg') center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -30px;
+}
+.tectim{
+	width: 100%;
+	height: auto;
+}
+.wrap_testim{
+	
+
+		position: absolute;
+		top:0;
+		left: 0;
+		display: block;
+		width: 150px;
+		height: 200px;
+		
+		
+	
+
+}
+
+.wrap_testimUnder{
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	top:0;
+	left: 0;
+	background-color: rgba(0, 68, 102, 0.7);
+transform: rotate(-20deg);
+}
+.descr_testim{
+	padding-left: 160px;
+	margin-bottom: 150px;
+	position: relative;
+}
+h3{
+	padding-left: 160px;
+}
+
+/*
+&:after{
+		content:'';
+		position: absolute;
+	width: 150px;
+	height: 200px;
+	top:0;
+	left: 0;
+	background-color: rgba(0, 68, 102, 0.7);
+transform: rotate(-20deg);
+z-index:-30;
+
+	}
+
+
+*/

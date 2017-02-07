@@ -5,8 +5,8 @@
 		
 		border-top:150px solid rgba(0, 68, 102, .7);
 		
-		border-left: 200px solid transparent;
-		border-right: 200px solid transparent;
+		border-left: 180px solid transparent;
+		border-right: 180px solid transparent;
 		/*border-left: 70px solid transparent;*/
 		margin: -90px auto;
 		/*&:after{

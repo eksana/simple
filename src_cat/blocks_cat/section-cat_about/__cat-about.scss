@@ -1,24 +1,9 @@
 .cat-about{
 	padding: 50px;
-	/*position: relative;	
-	width: 100%;
-	height:300px;
-	background: url('../img_cat/catGray.jpg') no-repeat  center;
+	background: url('../img_cat/cat_bg.jpg') center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	
-	&:before{
-		position: absolute;
-		content:'';
-		top:0;
-		left:0;
-		width: 100%;
-		height: 100%;
-		
-		background-color: #222;
-		opacity: .9;
-		
-}*/
+	margin-top: -30px;
 
 }
 .bright{
@@ -79,7 +64,14 @@ margin-top: 12px;
 		border-top-color:red; 
 		border-bottom-color: green;
 		margin: 0 auto;
+		&:hover{
+			background-color: $blue-green-color;
+			transition: all 1s
+		}
 	}
+	/*.around_png{
+		background-color: rgba(0, 68, 102, 0.7);
+	}*/
 
 	[class^="icon-"]::before, [class*=" icon-"]::before {
     font-family: "love";
