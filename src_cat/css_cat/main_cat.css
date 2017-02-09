@@ -739,12 +739,14 @@ section {
     border: none; } }
 
 .cat-slick {
-  padding: 50px;
+  padding: 80px;
   background-color: black; }
 
 .sliderIn {
-  width: 100%;
-  height: auto;
+  /*width: 100%;
+	height: auto;*/
+  width: 400px;
+  height: 300px;
   border: 20px solid rgba(0, 68, 102, 0.7); }
 
 .wrapSlider {
@@ -753,7 +755,9 @@ section {
 
 .title_slick {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 70px; }
 
 .testimonials {
   padding-top: 80px;
@@ -909,3 +913,26 @@ z-index:-30;
     margin-top: 30px; }
   .foot-sp {
     margin-top: 30px; } }
+
+.add_cats {
+  padding-top: 35px;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  -webkit-transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
+          transform: skewX(20deg);
+  background: url("../img_cat/line.png"); }
+  .add_cats:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 68, 102, 0.7); }
+
+.foot-cont {
+  -webkit-transform: skewX(-20deg);
+      -ms-transform: skewX(-20deg);
+          transform: skewX(-20deg); }

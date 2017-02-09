@@ -1,10 +1,12 @@
 .cat-slick{
-	padding: 50px;
+	padding: 80px;
 	background-color: black;
 }
 .sliderIn{
-	width: 100%;
-	height: auto;
+	/*width: 100%;
+	height: auto;*/
+	width: 400px;
+	height: 300px;
 	border:20px solid rgba(0, 68, 102, 0.7);
 }
 	
@@ -15,4 +17,8 @@
 .title_slick{
 color: #fff;
 text-align: center;
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 70px;
+
 }
