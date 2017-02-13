@@ -1,0 +1,158 @@
+.mother{
+	position: relative;
+	background: url('../img_index/motherboard2.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	&:before{
+		content:'';
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(2, 2, 2, .9);
+
+	}
+}
+.main{
+	padding-bottom: 340px;
+	text-align: center;
+}
+.container_for_scroll_Beauty{
+	padding: 5px;
+    border: #dbdbdb 1px solid;
+    width: 400px;
+    height: 300px;
+    margin: 40px auto;
+    overflow: hidden;
+    text-align: center;
+    
+    cursor: pointer;
+    position: relative;
+
+
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+    background-size:    100% 1px,
+                        1px 100%,
+                        100% 1px,
+                        1px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+&:hover {
+    animation-play-state: running;
+    
+}
+@keyframes panoramic {
+	to { background-position:0 100% ; }
+}
+
+	.item-folio {
+		background-image: url('../img_index/screen1-min.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    animation: panoramic 10s linear infinite alternate;
+	animation-play-state: paused;
+    &:hover,&:focus {
+	animation-play-state: running;
+    	transition:all 10s ease-out;
+    }
+}
+.item-folioCat {
+		background-image: url('../img_index/cat1Copy.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    animation: panoramic 10s linear infinite alternate;
+	animation-play-state: paused;
+    &:hover,&:focus {
+	animation-play-state: running;
+    	transition:all 10s ease-out;
+    }
+}
+
+
+.title_main{
+	text-align: center;
+}
+.main_link {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius:7px; 
+    background-color: $maincolor;
+    margin-bottom: 40px;
+}
+
+@keyframes bg {
+    0% {
+        background-size:    0 1px,
+                            1px 0,
+                            0 1px,
+                            1px 0;
+    }
+    25% {
+        background-size:    100% 1px,
+                            1px 0,
+                            0 1px,
+                            1px 0;
+    }
+    50% {
+        background-size:    100% 1px,
+                            1px 100%,
+                            0 1px,
+                            3px 0;
+    }
+    75% {
+        background-size:    100% 1px,
+                            1px 100%,
+                            100% 1px,
+                            1px 0;
+    }
+    100% {
+        background-size:    100% 1px,
+                            1px 100%,
+                            100% 1px,
+                            1px 100%;
+    }
+}
+
+.line {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2em;
+    
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+    background-size:    100% 1px,
+                        1px 100%,
+                        100% 1px,
+                        1px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+.line:hover {
+    animation-play-state: running;
+}

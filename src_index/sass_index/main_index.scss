@@ -5,6 +5,7 @@
 
 	@import 'variables_index.scss';
 	@import '../blocks_index/header_index/header_index.scss';
+	@import '../blocks_index/body_index/__body_index.scss';
 	@import '../blocks_index/footer_index/foot_index.scss';
 	/*@import '../blocks/header.scss';
 	@import '../blocks/feature/feature.scss';
@@ -23,9 +24,11 @@
 	@import '../blocks/action/action.scss';
 	@import '../blocks/action_animate/action_animate.scss';
 	@import '../blocks/get_in_toch/get_in_toch.scss';
+	@import '../blocks/body_index/__body_index.scss';
 	@import 'fonts.css';*/
 	
 	body{
+		
 		font-size: 16px;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;

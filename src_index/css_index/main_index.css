@@ -166,6 +166,19 @@ img {
   transition: clip .4s ease-in-out .2s, z-index .2s linear;
   clip: rect(0px, 300px, 300px, 0px); }
 
+.mother {
+  position: relative;
+  background: url("../img_index/motherboard2.jpg") no-repeat center;
+  background-size: cover; }
+  .mother:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.9); }
+
 .main {
   padding-bottom: 340px;
   text-align: center; }
@@ -173,8 +186,8 @@ img {
 .container_for_scroll_Beauty {
   padding: 5px;
   border: #dbdbdb 1px solid;
-  width: 279px;
-  height: 186px;
+  width: 400px;
+  height: 300px;
   margin: 40px auto;
   overflow: hidden;
   text-align: center;
@@ -184,7 +197,7 @@ img {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, right top, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #C9C9C9), to(#C9C9C9));
   background-image: -webkit-linear-gradient(left, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(top, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(left, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(top, #C9C9C9 100%, #C9C9C9 100%);
   background-image: linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
-  background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
   -webkit-animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
           animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
@@ -220,6 +233,23 @@ img {
     -webkit-transition: all 10s ease-out;
     transition: all 10s ease-out; }
 
+.item-folioCat {
+  background-image: url("../img_index/cat1Copy.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  -webkit-animation: panoramic 10s linear infinite alternate;
+          animation: panoramic 10s linear infinite alternate;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused; }
+  .item-folioCat:hover, .item-folioCat:focus {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+    -webkit-transition: all 10s ease-out;
+    transition: all 10s ease-out; }
+
 .title_main {
   text-align: center; }
 
@@ -234,27 +264,27 @@ img {
 
 @-webkit-keyframes bg {
   0% {
-    background-size: 0 3px, 3px 0, 0 3px, 3px 0; }
+    background-size: 0 1px, 1px 0, 0 1px, 1px 0; }
   25% {
-    background-size: 100% 3px, 3px 0, 0 3px, 3px 0; }
+    background-size: 100% 1px, 1px 0, 0 1px, 1px 0; }
   50% {
-    background-size: 100% 3px, 3px 100%, 0 3px, 3px 0; }
+    background-size: 100% 1px, 1px 100%, 0 1px, 3px 0; }
   75% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 0; }
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 0; }
   100% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%; } }
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%; } }
 
 @keyframes bg {
   0% {
-    background-size: 0 3px, 3px 0, 0 3px, 3px 0; }
+    background-size: 0 1px, 1px 0, 0 1px, 1px 0; }
   25% {
-    background-size: 100% 3px, 3px 0, 0 3px, 3px 0; }
+    background-size: 100% 1px, 1px 0, 0 1px, 1px 0; }
   50% {
-    background-size: 100% 3px, 3px 100%, 0 3px, 3px 0; }
+    background-size: 100% 1px, 1px 100%, 0 1px, 3px 0; }
   75% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 0; }
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 0; }
   100% {
-    background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%; } }
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%; } }
 
 .line {
   width: 100%;
@@ -264,7 +294,7 @@ img {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, right top, color-stop(100%, #C9C9C9), to(#C9C9C9)), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #C9C9C9), to(#C9C9C9));
   background-image: -webkit-linear-gradient(left, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(top, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(left, #C9C9C9 100%, #C9C9C9 100%), -webkit-linear-gradient(top, #C9C9C9 100%, #C9C9C9 100%);
   background-image: linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%), linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
-  background-size: 100% 3px, 3px 100%, 100% 3px, 3px 100%;
+  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
   -webkit-animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
           animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
@@ -392,6 +422,7 @@ img {
 	@import '../blocks/action/action.scss';
 	@import '../blocks/action_animate/action_animate.scss';
 	@import '../blocks/get_in_toch/get_in_toch.scss';
+	@import '../blocks/body_index/__body_index.scss';
 	@import 'fonts.css';*/
 body {
   font-size: 16px;
