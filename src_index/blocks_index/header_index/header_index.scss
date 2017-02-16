@@ -38,6 +38,23 @@
 	
 }
 
+.wrapper_for_nav{
+	padding: 70px 30px;
+	background-color: rgba(2, 2, 2, .7);
+	position: fixed;
+	top:30px;
+	left: -120px;
+	z-index:5;
+	transition: all 1s;
+	&:hover{
+		left: 0;
+		
+	}
+	
+
+}
+
+
 .home__title-index{
 	position: relative;
 	font-size: 48px;
