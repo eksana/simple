@@ -1,8 +1,11 @@
+/*for header gradient*/
+/*for header gradient*/
+/*for home&number*/
 .home {
   width: 100%;
-  height: 100vh;
+  height: 600px;
   position: relative;
-  background: url("../img_jewelry/jew7.jpg") no-repeat right bottom;
+  background: url("../img_jewelry/jew7.jpg") no-repeat center;
   background-size: cover; }
   .home:before {
     content: '';
@@ -13,6 +16,79 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8); }
 
-/*@import '__variables_jewelry.scss';*/
+.header-jewelry {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  /*border-bottom: 1px solid yellow;*/
+  background-color: rgba(0, 51, 102, 0.7);
+  z-index: 1; }
+  .header-jewelry:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    /*background: -webkit-linear-gradient(right,#fcfcfc 0,#ffe270 33%,#37ed2c 66%,#fbfffb 100%);*/
+    /*background: -webkit-linear-gradient(right,#ffe270 0,#ffe270 33%,#fbfffb 100%);*/
+    /*background: -webkit-linear-gradient(right,#fbfffb,#ffe270 ,#fbfffb); */
+    /*background: -webkit-linear-gradient(right,black, #e6e600,black);*/
+    background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(#e6e600), to(#000000));
+    background-image: -webkit-linear-gradient(left, #000000, #e6e600, #000000);
+    background-image: linear-gradient(to right, #000000, #e6e600, #000000);
+    /* background-image: linear-gradient(to right, #000000, #e6e600, #000000);*/ }
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%; }
+
+.form-search {
+  display: block;
+  margin: 40px auto;
+  background: #A3D0C3;
+  position: relative; }
+
+.d3 {
+  width: 50%;
+  margin: 0 auto;
+  background: #F9F0DA; }
+
+.input-header, .button-header {
+  border: none;
+  outline: none;
+  background: transparent; }
+
+.input-header {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px; }
+
+.button-header {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer; }
+
+.button-header:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA; }
+
+.phone, .number {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #b3b300; }
+
 /*@import '__mixins.scss';*/
 /*@import '__mw.scss';*/
