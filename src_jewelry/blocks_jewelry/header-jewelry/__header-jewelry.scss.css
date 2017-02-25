@@ -1,14 +1,14 @@
 .header-jewelry{
-	position: fixed;
+	/*position: fixed;
 	top:0;
-	left: 0;
+	left: 0;*/
 	width: 100%;
-	
+	position: relative;
 	padding-top: 10px ;
 
 	/*border-bottom: 1px solid yellow;*/
 	
-	background-color: rgba(0, 51,102, .7);
+	background-color: rgba(0, 51,102, 1);
 	
 	z-index:1;
 	&:after {
@@ -18,14 +18,8 @@
     right: 0;
    width: 100%;
     height: 2px;
-    
-    /*background: -webkit-linear-gradient(right,#fcfcfc 0,#ffe270 33%,#37ed2c 66%,#fbfffb 100%);*/
-    /*background: -webkit-linear-gradient(right,#ffe270 0,#ffe270 33%,#fbfffb 100%);*/
-     
-      /*background: -webkit-linear-gradient(right,#fbfffb,#ffe270 ,#fbfffb); */  
-      /*background: -webkit-linear-gradient(right,black, #e6e600,black);*/
-      background-image: linear-gradient(to right, $color2, $color1, $color2);
-      /* background-image: linear-gradient(to right, #000000, #e6e600, #000000);*/
+     background-image: linear-gradient(to right, $color2, $color1, $color2);
+      
 		}
 	
 

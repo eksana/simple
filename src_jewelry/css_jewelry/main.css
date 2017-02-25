@@ -1,9 +1,12 @@
 /*for header gradient*/
 /*for header gradient*/
 /*for home&number*/
+/*for top-nav a*/
 .home {
   width: 100%;
-  height: 600px;
+  /*height: 600px;*/
+  text-align: center;
+  padding: 100px 0 150px;
   position: relative;
   background: url("../img_jewelry/jew7.jpg") no-repeat center;
   background-size: cover; }
@@ -14,16 +17,31 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8); }
+    background-color: rgba(0, 0, 0, 0.9); }
+
+.title {
+  font-family: 'Oranienbaum', serif;
+  font-size: 48px;
+  color: #ffffe6;
+  padding-bottom: 40px; }
+
+.wrap-for-img {
+  width: 50%;
+  margin: 0 auto; }
+
+.jew-home {
+  width: 100%;
+  height: auto; }
 
 .header-jewelry {
-  position: fixed;
-  top: 0;
-  left: 0;
+  /*position: fixed;
+	top:0;
+	left: 0;*/
   width: 100%;
+  position: relative;
   padding-top: 10px;
   /*border-bottom: 1px solid yellow;*/
-  background-color: rgba(0, 51, 102, 0.7);
+  background-color: #003366;
   z-index: 1; }
   .header-jewelry:after {
     content: '';
@@ -32,14 +50,9 @@
     right: 0;
     width: 100%;
     height: 2px;
-    /*background: -webkit-linear-gradient(right,#fcfcfc 0,#ffe270 33%,#37ed2c 66%,#fbfffb 100%);*/
-    /*background: -webkit-linear-gradient(right,#ffe270 0,#ffe270 33%,#fbfffb 100%);*/
-    /*background: -webkit-linear-gradient(right,#fbfffb,#ffe270 ,#fbfffb); */
-    /*background: -webkit-linear-gradient(right,black, #e6e600,black);*/
     background-image: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(#e6e600), to(#000000));
     background-image: -webkit-linear-gradient(left, #000000, #e6e600, #000000);
-    background-image: linear-gradient(to right, #000000, #e6e600, #000000);
-    /* background-image: linear-gradient(to right, #000000, #e6e600, #000000);*/ }
+    background-image: linear-gradient(to right, #000000, #e6e600, #000000); }
 
 .logo {
   display: inline-block;
@@ -89,6 +102,48 @@
   margin-top: 20px;
   margin-bottom: 30px;
   color: #b3b300; }
+
+.top-nav {
+  width: 70%; }
+
+.ul-top-nav {
+  width: 70%;
+  padding: 20px 0 40px;
+  margin: 0 auto; }
+
+.item-top-nav {
+  display: inline-block;
+  list-style-type: none; }
+
+.item-top-a {
+  padding: 7px 20px;
+  color: #ffffe6; }
+  .item-top-a:hover {
+    border-bottom: 2px solid red;
+    -webkit-transition: all 2s;
+    transition: all 2s; }
+
+.item-top-a__active {
+  border-bottom: 1px solid red; }
+
+.ul-top-nav-small {
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: -20px; }
+
+.item-top-nav-small {
+  display: inline-block;
+  width: 100%;
+  height: 40px; }
+
+.item-top-a-small {
+  color: #ffffe6; }
+  .item-top-a-small:hover {
+    border-bottom: 2px solid red;
+    -webkit-transition: all 2s;
+    transition: all 2s; }
 
 /*@import '__mixins.scss';*/
 /*@import '__mw.scss';*/
