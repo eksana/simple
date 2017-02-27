@@ -1,12 +1,14 @@
+@charset "UTF-8";
 /*for header gradient*/
 /*for header gradient*/
 /*for home&number*/
 /*for top-nav a*/
+/*for button*/
 .home {
   width: 100%;
   /*height: 600px;*/
   text-align: center;
-  padding: 100px 0 150px;
+  padding: 100px 0 30px;
   position: relative;
   background: url("../img_jewelry/jew7.jpg") no-repeat center;
   background-size: cover; }
@@ -22,16 +24,38 @@
 .title {
   font-family: 'Oranienbaum', serif;
   font-size: 48px;
-  color: #ffffe6;
-  padding-bottom: 40px; }
+  color: #ffffe6; }
 
 .wrap-for-img {
-  width: 50%;
+  width: 100%;
   margin: 0 auto; }
 
 .jew-home {
   width: 100%;
   height: auto; }
+
+.descr {
+  font-family: 'Oranienbaum', serif;
+  font-style: italic;
+  color: #ffffe6;
+  padding-bottom: 40px; }
+
+.home-descr-link {
+  padding: 17px 50px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  background-color: red;
+  /*  opacity:.7;*/
+  position: relative;
+  z-index: 2;
+  color: #FFF; }
+  .home-descr-link:hover, .home-descr-link:focus {
+    background-color: #ff4d4d;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+
+a {
+  display: inline-block; }
 
 .header-jewelry {
   /*position: fixed;
@@ -63,7 +87,6 @@
 .form-search {
   display: block;
   margin: 40px auto;
-  background: #A3D0C3;
   position: relative; }
 
 .d3 {
@@ -79,7 +102,8 @@
 .input-header {
   width: 100%;
   height: 42px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  background-color: rgba(51, 122, 183, 0.6); }
 
 .button-header {
   height: 42px;
@@ -144,6 +168,158 @@
     border-bottom: 2px solid red;
     -webkit-transition: all 2s;
     transition: all 2s; }
+
+.form_header {
+  width: 100%;
+  height: 400px;
+  /*position: fixed;
+  top:150px;
+  left:50%;
+  margin-left:-40%;
+  background-color: #F7F7F7;*/
+  background-color: rgba(0, 51, 102, 0.6);
+  padding: 25px 30px;
+  border: red 1px solid;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  z-index: 10;
+  margin-top: 80px;
+  color: #b3b300;
+  /*display:none;*/ }
+
+.fa-times {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  /*color: $accentcolor;*/
+  cursor: pointer;
+  font-size: 30px; }
+
+form h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 22px;
+  color: #b3b300;
+  line-height: 22px;
+  margin-bottom: 30px; }
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #b3b300;
+  font-size: 14px; }
+
+form input,
+form select {
+  display: block;
+  line-height: 40px;
+  height: 40px;
+  border: #D9D9D9 1px solid;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+  width: 100%;
+  text-indent: 10px;
+  font-size: 20px;
+  margin-top: 3px;
+  background-color: rgba(179, 230, 255, 0.4); }
+
+form input:focus,
+form select:focus {
+  -webkit-box-shadow: #67bc5c 0 0 0 2px;
+          box-shadow: #67bc5c 0 0 0 2px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  border-color: #67bc5c; }
+
+form select {
+  background-image: url(../img/arrow.svg);
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  width: 110%; }
+
+form .button_wrap {
+  text-align: center;
+  margin: 30px 0 10px; }
+
+.label_select {
+  border-right: #D9D9D9 1px solid;
+  display: block;
+  overflow: hidden;
+  margin-top: 3px; }
+
+.label_select select {
+  margin-top: 0; }
+
+/*.button.btn_green {
+    background-color: #67bc5c;
+}
+.button {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 32px;
+    background-color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: "RobotoBold", sans-serif;
+}*/
+.home-descr-link {
+  padding: 17px 50px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  background-color: red;
+  border: 2px solid red;
+  /*  opacity:.7;*/
+  position: relative;
+  z-index: 2;
+  color: #FFF; }
+  .home-descr-link:hover, .home-descr-link:focus {
+    background-color: #ff4d4d;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+
+@media screen and (max-width: 530px) {
+  .form_header {
+    top: 10px;
+    height: 350px; } }
+
+@media screen and (max-width: 400px) {
+  .form_header {
+    top: 130px;
+    height: 400px; } }
+
+main {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Oranienbaum', serif;
+  background: url("../img_jewelry/backgroundDarkStarsmini.jpg") repeat; }
+
+.title-h2 {
+  font-family: 'Oranienbaum', serif;
+  font-size: 38px;
+  color: #fff; }
+
+h3 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 50px; }
+
+.wrap-ring {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-linear-gradient(110deg, #2b5876 0%, #4e4376 100%);
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  margin-bottom: 30px; }
+
+.inner-imge {
+  width: 90%; }
 
 /*@import '__mixins.scss';*/
 /*@import '__mw.scss';*/
