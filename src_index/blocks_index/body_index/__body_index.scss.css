@@ -126,7 +126,7 @@
 	text-align: center;
 }
 .main_link {
-    position: absolute;
+   position: relative;
     display: inline-block;
     text-align: center;
     padding: 10px 30px;
