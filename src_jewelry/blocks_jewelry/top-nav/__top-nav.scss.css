@@ -12,7 +12,7 @@
 	list-style-type: none;
 }
 .item-top-a{
-	padding: 7px 20px;
+	padding: 7px 24px;
 	color:$color4;
 	&:hover{
 		border-bottom: 2px solid red;
