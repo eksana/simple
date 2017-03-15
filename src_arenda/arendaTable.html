@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/grid.css">
+	<meta charset="UTF-8">
+	<title>Аренда теплохода</title>
+
+</head>
+<body>
+
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td >
+				<p>Меню</p>
+			</td>
+		</tr>
+	</table>
+	<table class="table">
+		<!--<tr>
+			<td >
+				<div class="logo">
+					logo
+				</div>
+			</td>
+			<td >
+				<div class="logo">
+					logo
+				</div>
+			</td>
+			<td >
+				<div class="logo">
+					logo
+				</div>
+			</td>
+			<td >
+				<div class="logo">
+					logo
+				</div>-->
+				<thead>
+
+				<tr class="footable-header">
+		<th>Модель телефона</th> 
+		<th data-breakpoints="mobile">logo</th>
+		<th data-breakpoints="mobile tablet">RAM, Гб</th>
+		<th data-breakpoints="mobile tablet">Диагональ, дюймов</th>
+		<th data-breakpoints="mobile tablet">PPI</th>
+		<th data-breakpoints="mobile tablet desktop">Аккумулятор, мА·ч</th>
+	</tr>
+
+		</thead>	
+	</table>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/3.0.6/footable.min.js"></script>
+<script>
+	jQuery(function () {
+		jQuery('.table').footable({
+			calculateWidthOverride: function() {
+				return {width: jQuery(window).width()};
+			},
+			breakpoints: {
+			    mobile: 480,
+			    tablet: 720,
+		    	desktop: 1024
+			}
+		});
+	})
+</script>
+
+</body>
+</html>

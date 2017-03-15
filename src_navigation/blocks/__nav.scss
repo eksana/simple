@@ -1,0 +1,133 @@
+.wrapNav{
+	position: relative;
+	width: 100%;
+	padding:30px;
+	background-color: $color1;
+
+}
+.main-nav{
+	background-color: $colorNav;
+	padding: 20px;
+	position: relative;
+	border-radius:10px;
+}
+.ul-main{
+	padding: 0;
+	margin: 0;
+}
+.main-li{
+	width: 100%;
+	display: block;
+	padding: 30px 20px;
+	margin-top: 10px;
+	border-radius:7px;
+	background-color: $colorLiA;
+	list-style-type: none;
+	&:hover{
+		/*background-color: lighten(blue,20%);*/
+		background-color:$colorNavActive;
+
+	}
+}
+.change{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	/*display: none;*/
+	text-transform: uppercase;
+	&:hover{
+		cursor: pointer;
+	}
+}
+.main-li{
+	width: 100%;
+	/*display: block;*/
+	display: none;
+	padding: 30px 20px;
+	margin-top: 10px;
+	border-radius:7px;
+	background-color: $colorLiA;
+	list-style-type: none;
+	&:hover{
+		/*background-color: lighten(blue,20%);*/
+		background-color:$colorNavActive;
+
+	}
+}
+.nn{
+	display: none;
+}
+.active{
+	background-color: $colorNavActive;
+}
+.main-a{
+	padding: 20px 8px;
+	color:$colorMainA;
+	font-size: 24px;
+	
+
+
+}
+.cross{
+	position: absolute;
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+	top: -20px;
+   /* right: -50%;*/
+   right:-20px;
+	background-color: red;
+	background-color: $crossBg;
+	/*display: none;*/
+	&:hover{
+		background-color:lighten($crossBg,10%);
+		cursor: pointer;
+	}
+}
+.menu.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 17px;
+  height: 2px;
+  background-color: $colorCross;
+  position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.menu.icon:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 17px;
+  height: 2px;
+  background-color: $colorCross;
+}
+
+.menu.icon:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 17px;
+  height: 2px;
+  background-color: $colorCross;
+}
+
+@media only screen and (max-width: 500px) {
+	/*.main-nav{
+		display: none;
+	}
+	.cross{
+		display: block;
+		top:100px;
+		left: 45%;
+	}*/
+	.main-a{
+		font-size: 18px
+	}
+}
+
