@@ -1,7 +1,7 @@
 .home{
 	width: 100%;
 	padding:40px 0 60px;
-	background: url('../img/main-image.jpg')no-repeat center;
+	background: url('../img/main-image-VolnaBezFonaVerh.jpg')no-repeat center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	text-align: center;
@@ -13,11 +13,12 @@
 background-color:$colorCross;
 /*margin-right: 150px;*/
 margin-top: 40px;
+border-radius: 7px;
 
 }
 .logo-home{
 	display: inline-block;
-	/*margin-left: 300px;*/
+	
 
 }
 .a-logo-home{
@@ -28,21 +29,80 @@ a{
 	display: inline-block;
 }
 .for_logo{
-	width: 100px;
+	width: 80px;
 	height: auto;
+}
+.for_logo_tel{
+	padding: 10px 0;
+	text-align: center;
 }
 .wrap-logo-home{
 	text-align: right;
 }
 .name{
 	display: block;
-	padding-top: 20px;
-	font-size: 24px;
+	padding-top: 10px;
+	font-size: 18px;
 	text-transform:uppercase;
+	color: $color4;
 }
 .wrap-span{
 	/*margin-top:20px;*/
 }
 .top-logo{
 float: left;
+}
+.top-tel{
+	display: block;
+	font-size: 16px;
+}
+.number-tel{
+	display: block;
+	font-size: 24px;
+
+}
+.blue{
+	color: $color4;
+}
+
+.logo, .tel, .addr{
+	margin-bottom: 20px;
+}
+
+.mark{
+font-size: 28px;
+}
+.hideButton{
+	margin-top: 20px;
+	padding:10px 10px;
+	background-color: $colorCross;
+	border-radius:7px;
+	opacity: .1;
+	&:hover{
+		opacity:.9;
+	}
+}
+.add{
+	width: 100%;
+	height: 100px;
+	background: url('../img/nizVolna.png')no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: -50px;
+}
+.mainAddr{
+	color: $color4;
+}
+
+
+@media screen and (max-width: 980px){
+	.wrap-logo-home{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 800px){
+.top-logo{
+float: none;
+}
 }

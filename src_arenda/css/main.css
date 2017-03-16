@@ -1,22 +1,50 @@
 @charset "UTF-8";
 /*rgb(0, 102, 102);*/
 /*$colorNav:rgba(179, 255, 218, .7);*/
+/*rgba(0, 102, 102, .5);*/
 /*rgba(121, 134, 134, .6);*/
+/*#ff6600;*/
 /*оранжевый*/
+/*#ff6600;*/
+/*оранжевый, скрытая кнопка*/
 /*rgb(0, 153, 153);*/
 /*бледный синий*/
+/*Color 1: #F0F2F0
+
+Color 2: #000C40 градиент*/
+/*градиент для body светло-бирюзовый*/
+/*темно-синий*/
+/* самый светло -голубой*/
+.mainBody {
+  /*width: 100%;
+	height:100%;*/
+  padding-bottom: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ccefff), color-stop(80%, #006999));
+  background: -webkit-linear-gradient(top, #ccefff 80%, #006999);
+  background: linear-gradient(to bottom, #ccefff 80%, #006999); }
+
 .wrapNav {
   position: relative;
   width: 100%;
   /*padding:30px;*/
-  background-color: white; }
+  /*background-color: $color1;*/
+  margin-bottom: -30px;
+  top: 0;
+  left: 0; }
 
 .main-nav {
-  background-color: rgba(0, 102, 102, 0.5);
+  background-color: rgba(0, 87, 128, 0.7);
   /*padding: 20px;*/
-  position: relative;
+  position: absolute;
   -webkit-border-radius: 10px;
-          border-radius: 10px; }
+          border-radius: 10px;
+  width: 100%;
+  top: -120px;
+  left: 0;
+  z-index: 10; }
+
+.top {
+  padding-top: 120px; }
 
 .ul-main {
   padding: 0;
@@ -25,8 +53,9 @@
 .main-li {
   width: 100%;
   display: block;
-  padding: 30px 20px;
+  padding: 7px 20px;
   margin-top: 10px;
+  text-align: center;
   -webkit-border-radius: 7px;
           border-radius: 7px;
   background-color: #9999ff;
@@ -39,7 +68,7 @@
   color: #fff;
   font-size: 30px;
   text-align: center;
-  /*display: none;*/
+  line-height: 0.3;
   text-transform: uppercase; }
   .change:hover {
     cursor: pointer; }
@@ -48,7 +77,7 @@
   width: 100%;
   /*display: block;*/
   display: none;
-  padding: 30px 20px;
+  padding: 8px 20px;
   margin-top: 10px;
   -webkit-border-radius: 7px;
           border-radius: 7px;
@@ -75,9 +104,9 @@
   height: 40px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  top: -20px;
+  top: 0;
   /* right: -50%;*/
-  right: -20px;
+  right: 0;
   background-color: red;
   background-color: #ffa366;
   /*display: none;*/ }
@@ -92,7 +121,7 @@
   margin-top: 10px;
   width: 17px;
   height: 2px;
-  background-color: #ff6600;
+  background-color: rgba(255, 102, 0, 0.6);
   position: absolute;
   top: 9px;
   left: 9px; }
@@ -104,7 +133,7 @@
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: #ff6600; }
+  background-color: rgba(255, 102, 0, 0.6); }
 
 .menu.icon:after {
   content: '';
@@ -113,7 +142,7 @@
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: #ff6600; }
+  background-color: rgba(255, 102, 0, 0.6); }
 
 @media only screen and (max-width: 500px) {
   /*.main-nav{
@@ -130,20 +159,21 @@
 .home {
   width: 100%;
   padding: 40px 0 60px;
-  background: url("../img/main-image.jpg") no-repeat center;
+  background: url("../img/main-image-VolnaBezFonaVerh.jpg") no-repeat center;
   background-size: cover;
   text-align: center; }
 
 .title-home {
   font-size: 4rem;
   color: white;
-  background-color: #ff6600;
+  background-color: rgba(255, 102, 0, 0.6);
   /*margin-right: 150px;*/
-  margin-top: 40px; }
+  margin-top: 40px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px; }
 
 .logo-home {
-  display: inline-block;
-  /*margin-left: 300px;*/ }
+  display: inline-block; }
 
 .a-logo-home {
   display: inline-block; }
@@ -152,20 +182,100 @@ a {
   display: inline-block; }
 
 .for_logo {
-  width: 100px;
+  width: 80px;
   height: auto; }
+
+.for_logo_tel {
+  padding: 10px 0;
+  text-align: center; }
 
 .wrap-logo-home {
   text-align: right; }
 
 .name {
   display: block;
-  padding-top: 20px;
-  font-size: 24px;
-  text-transform: uppercase; }
+  padding-top: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #006999; }
 
 .wrap-span {
   /*margin-top:20px;*/ }
 
 .top-logo {
   float: left; }
+
+.top-tel {
+  display: block;
+  font-size: 16px; }
+
+.number-tel {
+  display: block;
+  font-size: 24px; }
+
+.blue {
+  color: #006999; }
+
+.logo, .tel, .addr {
+  margin-bottom: 20px; }
+
+.mark {
+  font-size: 28px; }
+
+.hideButton {
+  margin-top: 20px;
+  padding: 10px 10px;
+  background-color: rgba(255, 102, 0, 0.6);
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  opacity: .1; }
+  .hideButton:hover {
+    opacity: .9; }
+
+.add {
+  width: 100%;
+  height: 100px;
+  background: url("../img/nizVolna.png") no-repeat center;
+  background-size: cover;
+  margin-top: -50px; }
+
+.mainAddr {
+  color: #006999; }
+
+@media screen and (max-width: 980px) {
+  .wrap-logo-home {
+    text-align: center; } }
+
+@media screen and (max-width: 800px) {
+  .top-logo {
+    float: none; } }
+
+.innerDescription {
+  padding-left: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url("../img/konstantin.jpg") no-repeat left;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  background-color: #e6f7ff; }
+
+.fotoMain {
+  width: 100%; }
+
+.innerFoto {
+  display: block;
+  width: 100%; }
+
+/*.wrapForinnerFoto{
+	width: 100%;
+	height: 200px;
+	background: url('../img/konstantin.jpg')no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}*/
+li {
+  list-style-type: none; }
+
+.mainDescr {
+  text-align: center;
+  font-size: 34px; }

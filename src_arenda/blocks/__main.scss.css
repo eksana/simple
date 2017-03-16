@@ -1,0 +1,33 @@
+.innerDescription{
+	padding-left:50%;
+	padding-top:20px;
+	padding-bottom: 20px;
+background: url('../img/konstantin.jpg')no-repeat left;
+	border-radius:7px;
+	background-color: $color5;
+	
+	
+}
+.fotoMain{
+	width: 100%;
+	
+}
+.innerFoto{
+	display: block;
+	width: 100%;
+	
+}
+/*.wrapForinnerFoto{
+	width: 100%;
+	height: 200px;
+	background: url('../img/konstantin.jpg')no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}*/
+li{
+	list-style-type: none;
+}
+.mainDescr{
+	text-align: center;
+	font-size: 34px;
+}

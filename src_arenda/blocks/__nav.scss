@@ -2,14 +2,24 @@
 	position: relative;
 	width: 100%;
 	/*padding:30px;*/
-	background-color: $color1;
+	/*background-color: $color1;*/
+	margin-bottom:-30px;
+	top:0;
+	left:0;
 
 }
 .main-nav{
 	background-color: $colorNav;
 	/*padding: 20px;*/
-	position: relative;
+	position: absolute;
 	border-radius:10px;
+	width: 100%;
+	top:-120px;
+	left:0;
+	z-index:10;
+}
+.top{
+	padding-top: 120px;
 }
 .ul-main{
 	padding: 0;
@@ -18,8 +28,9 @@
 .main-li{
 	width: 100%;
 	display: block;
-	padding: 30px 20px;
+	padding: 7px 20px;
 	margin-top: 10px;
+	text-align: center;
 	border-radius:7px;
 	background-color: $colorLiA;
 	list-style-type: none;
@@ -33,7 +44,7 @@
 	color: #fff;
 	font-size: 30px;
 	text-align: center;
-	/*display: none;*/
+	line-height: 0.3;
 	text-transform: uppercase;
 	&:hover{
 		cursor: pointer;
@@ -43,7 +54,7 @@
 	width: 100%;
 	/*display: block;*/
 	display: none;
-	padding: 30px 20px;
+	padding: 8px 20px;
 	margin-top: 10px;
 	border-radius:7px;
 	background-color: $colorLiA;
@@ -73,9 +84,9 @@
 	width: 40px;
     height: 40px;
     border-radius: 50%;
-	top: -20px;
+	top: 0;
    /* right: -50%;*/
-   right:-20px;
+   right:0;
 	background-color: red;
 	background-color: $crossBg;
 	/*display: none;*/
