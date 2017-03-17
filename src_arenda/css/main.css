@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}*/
 /*rgb(0, 102, 102);*/
 /*$colorNav:rgba(179, 255, 218, .7);*/
 /*rgba(0, 102, 102, .5);*/
@@ -15,14 +19,26 @@ Color 2: #000C40 градиент*/
 /*градиент для body светло-бирюзовый*/
 /*темно-синий*/
 /* самый светло -голубой*/
+/*цвет тиффани*/
 .mainBody {
-  /*width: 100%;
-	height:100%;*/
-  padding-bottom: 200px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #ccefff), color-stop(80%, #006999));
-  background: -webkit-linear-gradient(top, #ccefff 80%, #006999);
-  background: linear-gradient(to bottom, #ccefff 80%, #006999); }
+  /*	background: linear-gradient(to bottom, $color3 80%, $color4 );*/ }
 
+body, html, td {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  font-size: 18px;
+  /* font-size: 62,5%;*/ }
+
+/*
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+p{
+  @include font-size(1.8);
+}*/
 .wrapNav {
   position: relative;
   width: 100%;
@@ -41,10 +57,12 @@ Color 2: #000C40 градиент*/
   width: 100%;
   top: -120px;
   left: 0;
-  z-index: 10; }
+  z-index: 10;
+  padding: 0 20px 10px; }
 
 .top {
-  padding-top: 120px; }
+  padding-top: 120px;
+  background-color: RGB(49, 237, 225); }
 
 .ul-main {
   padding: 0;
@@ -66,7 +84,9 @@ Color 2: #000C40 градиент*/
 
 .change {
   color: #fff;
+  /*font-size: 30px;*/
   font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
   line-height: 0.3;
   text-transform: uppercase; }
@@ -154,17 +174,21 @@ Color 2: #000C40 градиент*/
 		left: 45%;
 	}*/
   .main-a {
-    font-size: 18px; } }
+    /*font-size: 18px;*/
+    font-size: 18px;
+    font-size: 1.125rem; } }
 
 .home {
   width: 100%;
   padding: 40px 0 60px;
-  background: url("../img/main-image-VolnaBezFonaVerh.jpg") no-repeat center;
+  background: url("../img/main-image2-min.jpg") no-repeat center;
   background-size: cover;
   text-align: center; }
 
 .title-home {
-  font-size: 4rem;
+  /*font-size: 4rem;*/
+  font-size: 48px;
+  font-size: 3rem;
   color: white;
   background-color: rgba(255, 102, 0, 0.6);
   /*margin-right: 150px;*/
@@ -187,7 +211,8 @@ a {
 
 .for_logo_tel {
   padding: 10px 0;
-  text-align: center; }
+  text-align: center;
+  background-color: RGB(49, 237, 225); }
 
 .wrap-logo-home {
   text-align: right; }
@@ -211,7 +236,8 @@ a {
 
 .number-tel {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  font-size: 1.5rem; }
 
 .blue {
   color: #006999; }
@@ -251,19 +277,22 @@ a {
     float: none; } }
 
 .innerDescription {
-  padding-left: 50%;
+  /*padding-left:50%;*/
   padding-top: 20px;
   padding-bottom: 20px;
-  background: url("../img/konstantin.jpg") no-repeat left;
   -webkit-border-radius: 7px;
           border-radius: 7px;
-  background-color: #e6f7ff; }
+  margin-left: -30px;
+  text-align: center; }
+
+.wrapForinnerFoto {
+  text-align: center; }
 
 .fotoMain {
   width: 100%; }
 
 .innerFoto {
-  display: block;
+  display: inline-block;
   width: 100%; }
 
 /*.wrapForinnerFoto{

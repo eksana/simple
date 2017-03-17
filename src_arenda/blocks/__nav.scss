@@ -17,9 +17,11 @@
 	top:-120px;
 	left:0;
 	z-index:10;
+	padding: 0 20px 10px;
 }
 .top{
 	padding-top: 120px;
+	background-color: $colorTiff;
 }
 .ul-main{
 	padding: 0;
@@ -42,7 +44,8 @@
 }
 .change{
 	color: #fff;
-	font-size: 30px;
+	/*font-size: 30px;*/
+	@include font-size(30px);
 	text-align: center;
 	line-height: 0.3;
 	text-transform: uppercase;
@@ -138,7 +141,8 @@
 		left: 45%;
 	}*/
 	.main-a{
-		font-size: 18px
+		/*font-size: 18px;*/
+		@include font-size(18px);
 	}
 }
 

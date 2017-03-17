@@ -1,13 +1,14 @@
 .home{
 	width: 100%;
 	padding:40px 0 60px;
-	background: url('../img/main-image-VolnaBezFonaVerh.jpg')no-repeat center;
+	background: url('../img/main-image2-min.jpg')no-repeat center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	text-align: center;
 }
 .title-home{
-	font-size: 4rem;
+	/*font-size: 4rem;*/
+	@include font-size(48px);
 	color: $colorMainA;
 	
 background-color:$colorCross;
@@ -35,6 +36,7 @@ a{
 .for_logo_tel{
 	padding: 10px 0;
 	text-align: center;
+	background-color: $colorTiff;
 }
 .wrap-logo-home{
 	text-align: right;
@@ -58,7 +60,7 @@ float: left;
 }
 .number-tel{
 	display: block;
-	font-size: 24px;
+	@include font-size(24px);
 
 }
 .blue{
