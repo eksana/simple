@@ -285,7 +285,7 @@ a {
   .addr {
     margin-top: -50px; } }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 770px) {
   .addr {
     margin-top: 10px; }
   .for_logo_tel {
