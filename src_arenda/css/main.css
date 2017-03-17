@@ -127,12 +127,13 @@ p{
   top: 0;
   /* right: -50%;*/
   right: 0;
-  background-color: red;
-  background-color: #ffa366;
-  /*display: none;*/ }
-  .cross:hover {
-    background-color: #ffc299;
-    cursor: pointer; }
+  background-color: white;
+  /*background-color: $crossBg;*/
+  /*display: none;*/
+  /*&:hover{
+		background-color:lighten($crossBg,10%);
+		cursor: pointer;
+	}*/ }
 
 .menu.icon {
   color: #000;
@@ -141,7 +142,7 @@ p{
   margin-top: 10px;
   width: 17px;
   height: 2px;
-  background-color: rgba(255, 102, 0, 0.6);
+  background-color: rgba(0, 87, 128, 0.7);
   position: absolute;
   top: 9px;
   left: 9px; }
@@ -153,7 +154,7 @@ p{
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: rgba(255, 102, 0, 0.6); }
+  background-color: rgba(0, 87, 128, 0.7); }
 
 .menu.icon:after {
   content: '';
@@ -162,7 +163,7 @@ p{
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: rgba(255, 102, 0, 0.6); }
+  background-color: rgba(0, 87, 128, 0.7); }
 
 @media only screen and (max-width: 500px) {
   /*.main-nav{
@@ -180,6 +181,7 @@ p{
 
 .home {
   width: 100%;
+  max-height: 255px;
   padding: 40px 0 60px;
   background: url("../img/main-image2-min.jpg") no-repeat center;
   background-size: cover;
@@ -215,12 +217,13 @@ a {
   background-color: RGB(49, 237, 225); }
 
 .wrap-logo-home {
-  text-align: right; }
+  /*text-align: right;*/ }
 
 .name {
   display: block;
   padding-top: 10px;
   font-size: 18px;
+  font-weight: bold;
   text-transform: uppercase;
   color: #006999; }
 
@@ -276,13 +279,18 @@ a {
   .top-logo {
     float: none; } }
 
-/*@media screen and (max-width: 325px){
-.title-home{
-	
-	@include font-size(36px);
-	
-}
-}*/
+@media screen and (max-width: 985px) {
+  .for_logo_tel {
+    text-align: left; }
+  .addr {
+    margin-top: -50px; } }
+
+@media screen and (max-width: 780px) {
+  .addr {
+    margin-top: 10px; }
+  .for_logo_tel {
+    text-align: center; } }
+
 .innerDescription {
   /*padding-left:50%;*/
   padding-top: 20px;
@@ -324,3 +332,18 @@ li {
 
 .for_logo_tel-foot {
   background-color: aquamarine; }
+
+.foot-a {
+  padding: 10px;
+  background-color: rgba(255, 102, 0, 0.6);
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  color: white; }
+
+footer {
+  padding: 30px;
+  /*background-color: $colorTiff;*/
+  background: -webkit-gradient(linear, left top, left bottom, from(RGB(49, 237, 225)), to(#006999));
+  background: -webkit-linear-gradient(top, RGB(49, 237, 225), #006999);
+  background: linear-gradient(to bottom, RGB(49, 237, 225), #006999);
+  text-align: center; }

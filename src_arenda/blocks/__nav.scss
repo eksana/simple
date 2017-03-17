@@ -90,13 +90,13 @@
 	top: 0;
    /* right: -50%;*/
    right:0;
-	background-color: red;
-	background-color: $crossBg;
+	background-color: white;
+	/*background-color: $crossBg;*/
 	/*display: none;*/
-	&:hover{
+	/*&:hover{
 		background-color:lighten($crossBg,10%);
 		cursor: pointer;
-	}
+	}*/
 }
 .menu.icon {
   color: #000;
@@ -105,7 +105,7 @@
   margin-top: 10px;
   width: 17px;
   height: 2px;
-  background-color: $colorCross;
+  background-color:  $colorNav;
   position: absolute;
     top: 9px;
     left: 9px;
@@ -118,7 +118,7 @@
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: $colorCross;
+  background-color:  $colorNav;
 }
 
 .menu.icon:after {
@@ -128,7 +128,7 @@
   left: 0;
   width: 17px;
   height: 2px;
-  background-color: $colorCross;
+ background-color:  $colorNav;
 }
 
 @media only screen and (max-width: 500px) {

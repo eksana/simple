@@ -1,0 +1,12 @@
+.foot-a{
+	padding: 10px;
+	background-color:  $colorCross;
+	border-radius:7px;
+	color: white;
+}
+footer{
+	padding: 30px ;
+	/*background-color: $colorTiff;*/
+	background:linear-gradient(to bottom, $colorTiff,$color4);
+	text-align: center;
+}
