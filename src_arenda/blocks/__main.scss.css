@@ -17,7 +17,9 @@
 }
 .innerFoto{
 	display: inline-block;
-	width: 100%;
+	/*width: 100%;*/
+	width: 178px;
+	height: auto;
 	
 }
 /*.wrapForinnerFoto{
@@ -33,4 +35,12 @@ li{
 .mainDescr{
 	text-align: center;
 	font-size: 34px;
+}
+.mask{
+  
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.for_logo_tel-foot{
+	background-color: $colorTiff4;
 }

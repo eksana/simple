@@ -108,3 +108,11 @@ font-size: 28px;
 float: none;
 }
 }
+
+/*@media screen and (max-width: 325px){
+.title-home{
+	
+	@include font-size(36px);
+	
+}
+}*/
