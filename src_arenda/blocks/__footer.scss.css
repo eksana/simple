@@ -1,12 +1,54 @@
 .foot-a{
 	padding: 10px;
-	background-color:  $colorCross;
+	background-color:  $color4;
 	border-radius:7px;
-	color: white;
+	
+	color: $color5;
+	&:hover{
+		background-color:white;
+	};
 }
-footer{
+.footer1{
 	padding: 30px ;
 	/*background-color: $colorTiff;*/
 	background:linear-gradient(to bottom, $colorTiff,$color4);
 	text-align: center;
+
+}
+.footer2{
+	padding: 30px ;
+	/*background-color: $colorTiff;*/
+	background:url('../img/bg-bottom.jpg')no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	color:white;
+}
+.footer2 .name{
+	color: $color4;
+}
+.foot2-a{
+	background-color: $color4;
+	padding: 10px;
+	background-color:  $color4;
+	border-radius:7px;
+	
+	color: $color5;
+	&:hover{
+		color:white;
+	};
+}
+.blue1{
+	color:white;
+}
+
+@media screen and (max-width: 800px){
+.footer2{
+display: none;
+}
+}
+@media screen and (min-width: 800px){
+.footer1{
+display: none;
+}
 }

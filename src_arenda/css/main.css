@@ -225,7 +225,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #006999; }
+  color: white; }
 
 .wrap-span {
   /*margin-top:20px;*/ }
@@ -279,18 +279,26 @@ a {
   .top-logo {
     float: none; } }
 
-@media screen and (max-width: 985px) {
-  .for_logo_tel {
-    text-align: left; }
-  .addr {
-    margin-top: -50px; } }
+/*@media screen and (max-width: 985px){
+.for_logo_tel{
+	text-align: left;
+}
+.addr{
+	margin-top: -50px;
+}
 
-@media screen and (max-width: 770px) {
-  .addr {
-    margin-top: 10px; }
-  .for_logo_tel {
-    text-align: center; } }
+}
 
+@media screen and (max-width: 769px){
+	.addr{
+	margin-top:10px;
+}
+.for_logo_tel{
+	text-align: center;
+}
+
+
+}*/
 .innerDescription {
   /*padding-left:50%;*/
   padding-top: 20px;
@@ -335,15 +343,49 @@ li {
 
 .foot-a {
   padding: 10px;
-  background-color: rgba(255, 102, 0, 0.6);
+  background-color: #006999;
   -webkit-border-radius: 7px;
           border-radius: 7px;
-  color: white; }
+  color: #e6f7ff; }
+  .foot-a:hover {
+    background-color: white; }
 
-footer {
+.footer1 {
   padding: 30px;
   /*background-color: $colorTiff;*/
   background: -webkit-gradient(linear, left top, left bottom, from(RGB(49, 237, 225)), to(#006999));
   background: -webkit-linear-gradient(top, RGB(49, 237, 225), #006999);
   background: linear-gradient(to bottom, RGB(49, 237, 225), #006999);
   text-align: center; }
+
+.footer2 {
+  padding: 30px;
+  /*background-color: $colorTiff;*/
+  background: url("../img/bg-bottom.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: white; }
+
+.footer2 .name {
+  color: #006999; }
+
+.foot2-a {
+  background-color: #006999;
+  padding: 10px;
+  background-color: #006999;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  color: #e6f7ff; }
+  .foot2-a:hover {
+    color: white; }
+
+.blue1 {
+  color: white; }
+
+@media screen and (max-width: 800px) {
+  .footer2 {
+    display: none; } }
+
+@media screen and (min-width: 800px) {
+  .footer1 {
+    display: none; } }
