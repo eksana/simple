@@ -42,13 +42,13 @@
 	color:white;
 }
 
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 500px){
 .footer2{
 display: none;
 }
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 500px){
 .footer1{
 display: none;
 }
-}
+}*/
