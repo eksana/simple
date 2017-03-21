@@ -20,6 +20,9 @@ Color 2: #000C40 градиент*/
 /*темно-синий*/
 /* самый светло -голубой*/
 /*цвет тиффани*/
+/*темно синий*/
+/*яркий синий*/
+/*сине-фиолетовый*/
 .mainBody {
   /*	background: linear-gradient(to bottom, $color3 80%, $color4 );*/ }
 
@@ -597,9 +600,9 @@ td, th {
   line-height: 36px;
   background: #57beff;
   margin-bottom: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, RGB(49, 237, 225)), to(#006999));
-  background: -webkit-linear-gradient(top, RGB(49, 237, 225) 0, #006999 100%);
-  background: linear-gradient(to bottom, RGB(49, 237, 225) 0, #006999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, RGB(49, 237, 225)), to(#003399));
+  background: -webkit-linear-gradient(top, RGB(49, 237, 225) 0, #003399 100%);
+  background: linear-gradient(to bottom, RGB(49, 237, 225) 0, #003399 100%);
   text-align: center;
   color: #fff;
   text-decoration: none;
@@ -610,20 +613,31 @@ td, th {
   display: inline-block; }
   .sub-menu-button:hover {
     color: #e6f7ff;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, RGB(49, 237, 225)), to(#006999));
-    background: -webkit-linear-gradient(bottom, RGB(49, 237, 225) 0, #006999 100%);
-    background: linear-gradient(to top, RGB(49, 237, 225) 0, #006999 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, RGB(49, 237, 225)), to(#003399));
+    background: -webkit-linear-gradient(bottom, RGB(49, 237, 225) 0, #003399 100%);
+    background: linear-gradient(to top, RGB(49, 237, 225) 0, #003399 100%);
     text-decoration: none; }
 
-.addColor {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e6f7ff), to(#006999));
-  background: -webkit-linear-gradient(top, #e6f7ff 0, #006999 100%);
-  background: linear-gradient(to bottom, #e6f7ff 0, #006999 100%); }
-  .addColor:hover {
+.addColor1 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #6600ff), to(#003399));
+  background: -webkit-linear-gradient(top, #6600ff 20%, #003399 100%);
+  background: linear-gradient(to bottom, #6600ff 20%, #003399 100%); }
+  .addColor1:hover {
     color: #e6f7ff;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e6f7ff), to(#006999));
-    background: -webkit-linear-gradient(bottom, #e6f7ff 0, #006999 100%);
-    background: linear-gradient(to top, #e6f7ff 0, #006999 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #6600ff), to(#003399));
+    background: -webkit-linear-gradient(bottom, #6600ff 20%, #003399 100%);
+    background: linear-gradient(to top, #6600ff 20%, #003399 100%);
+    text-decoration: none; }
+
+.addColor2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, aquamarine), to(blue));
+  background: -webkit-linear-gradient(top, aquamarine 20%, blue 100%);
+  background: linear-gradient(to bottom, aquamarine 20%, blue 100%); }
+  .addColor2:hover {
+    color: #e6f7ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, aquamarine), to(blue));
+    background: -webkit-linear-gradient(bottom, aquamarine 20%, blue 100%);
+    background: linear-gradient(to top, aquamarine 20%, blue 100%);
     text-decoration: none; }
 
 /*button finish*/
