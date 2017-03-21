@@ -588,6 +588,28 @@ td, th {
   tr:nth-of-type(odd) {
     background-color: #cbe2ed; } }
 
+/*button start*/
+.for_button {
+  text-align: center; }
+
+.sub-menu-button {
+  line-height: 36px;
+  background: #57beff;
+  margin-bottom: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, RGB(49, 237, 225)), to(#006999));
+  background: -webkit-linear-gradient(top, RGB(49, 237, 225) 0, #006999 100%);
+  background: linear-gradient(to bottom, RGB(49, 237, 225) 0, #006999 100%);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  cursor: pointer;
+  display: inline-block; }
+  .sub-menu-button:hover {
+    color: #e6f7ff; }
+
+/*button finish*/
 .foot-a {
   padding: 10px;
   background-color: #006999;

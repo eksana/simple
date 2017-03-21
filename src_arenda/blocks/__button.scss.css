@@ -1,0 +1,22 @@
+/*button start*/
+ .for_button {
+    text-align: center;
+}
+ .sub-menu-button {
+   
+    line-height: 36px;
+    background: #57beff;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom,$colorTiff 0,$color4 100%);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    display: inline-block;
+    &:hover{
+    	color:$color5;
+    }
+}
+/*button finish*/
