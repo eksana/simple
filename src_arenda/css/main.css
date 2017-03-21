@@ -299,6 +299,99 @@ a {
 
 
 }*/
+/* start second menu*/
+#cssmenu {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: left; }
+
+#cssmenu > ul {
+  width: 80%;
+  list-style-type: none;
+  padding: 30px 0;
+  margin: 0;
+  background: #e1eaf1;
+  border: 1px solid #ece6e8;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  /* закругление углов для всех, кто понимает */
+  margin: 0 auto;
+  padding: 0; }
+
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */ }
+
+#cssmenu > ul li {
+  display: inline-block;
+  margin-left: 50px; }
+
+#cssmenu > ul li.right {
+  float: right; }
+
+#cssmenu > ul li.has-sub {
+  position: relative; }
+
+#cssmenu > ul li.has-sub:hover ul {
+  display: block; }
+
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #cedeea;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+  z-index: 10; }
+
+#cssmenu > ul li.has-sub ul li {
+  display: block; }
+
+#cssmenu > ul li.has-sub > a {
+  background-image: url("images/caret.png");
+  background-repeat: no-repeat;
+  background-position: 90% -95%; }
+
+#cssmenu > ul li.has-sub > a.activeSec,
+#cssmenu > ul li.has-sub > a:hover {
+  background: #cedeea url("images/caret.png") no-repeat;
+  background-position: 90% 195%; }
+
+#cssmenu > ul li a {
+  display: inline-block;
+  padding: 12px 24px 11px 24px;
+  text-decoration: none;
+  color: #075998; }
+
+#cssmenu > ul li a.activeSec,
+#cssmenu > ul li a:hover {
+  background: #aac8df;
+  color: #fff; }
+
+@media screen and (max-width: 960px) {
+  #cssmenu > ul li {
+    display: block;
+    margin-left: 28%; } }
+
+@media (max-width: 600px) {
+  #cssmenu > ul {
+    width: 100%; }
+  #cssmenu > ul li#responsive-tab {
+    display: block; } }
+
+.wrap_for_secondMenu {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center; }
+
+/* finish second menu*/
 .innerDescription {
   /*padding-left:50%;*/
   padding-top: 20px;
