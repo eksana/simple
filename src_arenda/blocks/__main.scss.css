@@ -41,11 +41,18 @@
 	height: auto;*/
 	
 }
+.innerFotoAside {
+	text-align: center;
+}
 mark{
 	background-color:#ADD8E6;
 }
 .second{
 	width: 100%;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
 }
 /*.wrapForinnerFoto{
 	width: 100%;
