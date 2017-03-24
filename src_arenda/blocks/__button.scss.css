@@ -37,4 +37,12 @@
     	 text-decoration:none;
     }
 }
+.addColor3{
+	background: linear-gradient(to bottom,#cce2ff 20%,$colordarkBlue 100%);
+	 &:hover{
+    	color:$color5;
+    	 background: linear-gradient(to top,#cce2ff 20%,$colordarkBlue 100%);
+    	 text-decoration:none;
+    }
+}
 /*button finish*/

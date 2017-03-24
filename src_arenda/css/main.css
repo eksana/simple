@@ -3,6 +3,7 @@
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
 }*/
+/**/
 /*rgb(0, 102, 102);*/
 /*$colorNav:rgba(179, 255, 218, .7);*/
 /*rgba(0, 102, 102, .5);*/
@@ -398,23 +399,43 @@ a {
 .innerDescription {
   /*padding-left:50%;*/
   padding-top: 20px;
-  padding-bottom: 20px;
   -webkit-border-radius: 7px;
           border-radius: 7px;
   margin-left: -30px;
   text-align: center; }
 
 .wrapForinnerFoto {
-  text-align: center; }
+  text-align: center;
+  border: 1px solid SkyBlue;
+  padding: 0;
+  margin-bottom: 20px; }
+  .wrapForinnerFoto:hover {
+    background-color: #E0FFFF; }
+
+.wrapForinnerFotoRecommend {
+  text-align: center;
+  border: 1px solid SkyBlue;
+  padding: 0;
+  margin-bottom: 20px;
+  float: left; }
+  .wrapForinnerFotoRecommend:hover {
+    background-color: #E0FFFF; }
 
 .fotoMain {
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .innerFoto {
   display: inline-block;
-  /*width: 100%;*/
-  width: 178px;
-  height: auto; }
+  /*width: 100%;
+	
+	height: auto;*/ }
+
+mark {
+  background-color: #ADD8E6; }
+
+.second {
+  width: 100%; }
 
 /*.wrapForinnerFoto{
 	width: 100%;
@@ -424,19 +445,77 @@ a {
 	background-size: cover;
 }*/
 li {
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none; }
 
 .mainDescr {
   text-align: center;
   font-size: 34px; }
 
-.mask {
-  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }
+.underDescr {
+  text-align: center;
+  display: inline-block;
+  background-color: #086897;
+  color: #fff;
+  width: 80%; }
 
+.descr {
+  border: 1px solid #086897; }
+
+.aboutShip {
+  margin-bottom: 10px; }
+
+.discout {
+  width: 100%;
+  border: 1px solid #086897;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+  display: none; }
+
+a {
+  display: inline-block;
+  text-decoration: none; }
+
+.mask {
+  /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);*/
+  /*width: 100%;*/ }
+
+.maskNone {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.recomendation {
+  margin-left: -30px; }
+
+/*.item-reccomend{
+	margin-bottom: 5px;
+}*/
 .for_logo_tel-foot {
   background-color: aquamarine; }
 
+@media only screen and (min-width: 960px) {
+  .mask {
+    float: left; } }
+
+@media only screen and (max-width: 450px) {
+  .innerFoto {
+    display: inline-block;
+    width: 100%; } }
+
+/*@media only screen and (max-width:960px){
+	.wrapForinnerFotoRecommend{
+		float:none;
+
+	}
+	.maskNone{
+		width:50%;
+		float:left;
+		text-align:center; 
+	}
+	
+
+}*/
 table {
   width: 100%;
   border-collapse: collapse; }
@@ -638,6 +717,17 @@ td, th {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, aquamarine), to(blue));
     background: -webkit-linear-gradient(bottom, aquamarine 20%, blue 100%);
     background: linear-gradient(to top, aquamarine 20%, blue 100%);
+    text-decoration: none; }
+
+.addColor3 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #cce2ff), to(#003399));
+  background: -webkit-linear-gradient(top, #cce2ff 20%, #003399 100%);
+  background: linear-gradient(to bottom, #cce2ff 20%, #003399 100%); }
+  .addColor3:hover {
+    color: #e6f7ff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #cce2ff), to(#003399));
+    background: -webkit-linear-gradient(bottom, #cce2ff 20%, #003399 100%);
+    background: linear-gradient(to top, #cce2ff 20%, #003399 100%);
     text-decoration: none; }
 
 /*button finish*/

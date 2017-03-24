@@ -4,4 +4,8 @@ $(document).ready(function(){
 		//$('.change').toggle();
 
 	});
+
+	$('#disc').click(function(){
+		$('.discout').toggle();
+	})
 });

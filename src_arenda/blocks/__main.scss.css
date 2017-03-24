@@ -1,7 +1,7 @@
 .innerDescription{
 	/*padding-left:50%;*/
 	padding-top:20px;
-	padding-bottom: 20px;
+	
 	border-radius:7px;
 	margin-left:-30px;
 	text-align: center;
@@ -10,17 +10,42 @@
 }
 .wrapForinnerFoto {
     text-align: center;
+    border: 1px solid SkyBlue;
+    padding: 0;
+    margin-bottom: 20px;
+    &:hover{
+		background-color:#E0FFFF;
+	}
 }
+.wrapForinnerFotoRecommend{
+	
+    text-align: center;
+    border: 1px solid SkyBlue;
+    padding: 0;
+    margin-bottom: 20px;
+    float:left;
+    &:hover{
+		background-color:#E0FFFF;
+	}
+}
+
 .fotoMain{
 	width: 100%;
+	text-align: center;
 	
 }
 .innerFoto{
 	display: inline-block;
-	/*width: 100%;*/
-	width: 178px;
-	height: auto;
+	/*width: 100%;
 	
+	height: auto;*/
+	
+}
+mark{
+	background-color:#ADD8E6;
+}
+.second{
+	width: 100%;
 }
 /*.wrapForinnerFoto{
 	width: 100%;
@@ -31,16 +56,84 @@
 }*/
 li{
 	list-style-type: none;
+	text-decoration: none;
 }
 .mainDescr{
 	text-align: center;
 	font-size: 34px;
 }
+.underDescr{
+	text-align: center;
+	display: inline-block;
+	background-color:#086897;
+	color: #fff;
+	width: 80%;
+	
+	
+}
+.descr{
+	border:1px solid #086897;
+}
+.aboutShip{
+	margin-bottom:10px;
+}
+
+.discout{
+	width: 100%;
+	border:1px solid #086897;
+	padding: 10px 20px;
+	margin-bottom: 3px;
+	display: none;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
 .mask{
   
-  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+ /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);*/
+ /*width: 100%;*/
 }
+.maskNone {
+	display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.recomendation{
+	margin-left: -30px;
+}
+/*.item-reccomend{
+	margin-bottom: 5px;
+}*/
 
 .for_logo_tel-foot{
 	background-color: $colorTiff4;
 }
+@media only screen and (min-width:960px){
+	.mask{
+		float:left;
+	}
+
+
+}
+
+@media only screen and (max-width:450px){
+	.innerFoto {
+    display: inline-block;
+    width: 100%;
+}
+
+}
+/*@media only screen and (max-width:960px){
+	.wrapForinnerFotoRecommend{
+		float:none;
+
+	}
+	.maskNone{
+		width:50%;
+		float:left;
+		text-align:center; 
+	}
+	
+
+}*/
