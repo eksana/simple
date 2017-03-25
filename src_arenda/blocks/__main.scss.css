@@ -109,6 +109,16 @@ a{
 .recomendation{
 	margin-left: -30px;
 }
+.sub-menu-buttonClean{
+	width: 100%;
+	border: 1px solid lightblue;
+	margin-bottom:30px;
+	padding: 20px 20px;
+	&:hover{
+		background-color:#E0FFFF;
+		/*text-decoration: none;*/
+	}
+}
 /*.item-reccomend{
 	margin-bottom: 5px;
 }*/
