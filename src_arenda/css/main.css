@@ -406,13 +406,12 @@ a {
 
 .wrapForinnerFoto {
   text-align: center;
-  border: 1px solid SkyBlue;
+  border: 3px double SkyBlue;
   padding: 0;
   margin-bottom: 20px;
   -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
           box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
-  -webkit-box-shadow: 0 0 0 3px white inset, 0 0 0 4px #ADD8E6 inset;
-          box-shadow: 0 0 0 3px white inset, 0 0 0 4px #ADD8E6 inset; }
+  /*box-shadow: 0 0 0 3px white inset, 0 0 0 4px #ADD8E6 inset;*/ }
   .wrapForinnerFoto:hover {
     background-color: #E0FFFF; }
 
@@ -442,8 +441,7 @@ mark {
   background-color: #ADD8E6; }
 
 .second {
-  width: 100%;
-  /*text-decoration: none;*/ }
+  width: 100%; }
   .second:hover {
     text-decoration: none; }
 
