@@ -498,9 +498,11 @@ a {
   width: 100%;
   border: 1px solid lightblue;
   margin-bottom: 30px;
-  padding: 20px 20px; }
+  padding: 20px 20px;
+  /*display: table-cell;*/ }
   .sub-menu-buttonClean:hover {
-    background-color: #E0FFFF; }
+    background-color: #E0FFFF;
+    /*text-decoration: none;*/ }
 
 /*.item-reccomend{
 	margin-bottom: 5px;
@@ -517,19 +519,12 @@ a {
     display: inline-block;
     width: 100%; } }
 
-/*@media only screen and (max-width:960px){
-	.wrapForinnerFotoRecommend{
-		float:none;
+@media only screen and (max-width: 330px) {
+  .innerDescription {
+    height: 205px; }
+  .sub-menu-buttonClean {
+    height: 108px; } }
 
-	}
-	.maskNone{
-		width:50%;
-		float:left;
-		text-align:center; 
-	}
-	
-
-}*/
 table {
   width: 100%;
   border-collapse: collapse; }
