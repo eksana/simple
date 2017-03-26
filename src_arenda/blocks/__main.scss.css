@@ -44,6 +44,10 @@
 	height: auto;*/
 	
 }
+.fix{
+	width: 187px;
+	height: 169px;
+}
 .innerFotoAside {
 	text-align: center;
 }
@@ -74,6 +78,7 @@ li{
 	text-decoration: none;
 }
 .mainDescr{
+	width: 100%;
 	text-align: center;
 	font-size: 34px;
 }
@@ -82,7 +87,7 @@ li{
 	display: inline-block;
 	background-color:#086897;
 	color: #fff;
-	width: 80%;
+	width: 100%;
 	
 	
 }
@@ -131,7 +136,7 @@ a{
 	}
 }
 .sub-menu-buttonGreen{
-	width: 80%;
+	width: 100%;
 	padding:2px 10px;
     line-height: 36px;
     background-color: #4ebb40;
@@ -173,6 +178,18 @@ a{
 }
 .sub-menu-buttonClean{
 	height:108px;
+}
+
+}
+
+@media only screen and (max-width:453px){
+	
+.sub-menu-buttonGreen{
+	line-height: 1.1;
+}
+.fix{
+	width: 187px;
+	height: 169px;
 }
 
 }
