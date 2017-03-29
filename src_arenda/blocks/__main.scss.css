@@ -20,6 +20,13 @@
 		background-color:#E0FFFF;
 	}
 }
+.wrapForinnerFotoNoneLink{
+	 text-align: center;
+    border: 3px double SkyBlue;
+    padding: 0;
+    margin-bottom: 20px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
 .wrapForinnerFotoRecommend{
 	
     text-align: center;
@@ -80,7 +87,7 @@ li{
 .mainDescr{
 	width: 100%;
 	text-align: center;
-	font-size: 34px;
+	@include font-size(34px);
 }
 .underDescr{
 	text-align: center;
@@ -88,11 +95,12 @@ li{
 	background-color:#086897;
 	color: #fff;
 	width: 100%;
-	
+	margin-top: -3px;
 	
 }
 .descr{
 	border:1px solid #086897;
+	margin: -8px 0;
 }
 .aboutShip{
 	margin-bottom:10px;
@@ -190,6 +198,10 @@ a{
 .fix{
 	width: 187px;
 	height: 169px;
+}
+.mainDescr{
+	line-height: 1.1;
+	font-size: 28px;
 }
 
 }

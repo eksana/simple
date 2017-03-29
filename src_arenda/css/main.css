@@ -3,7 +3,7 @@
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
 }*/
-/**/
+/*подключение @include font-size(48px);используем*/
 /*rgb(0, 102, 102);*/
 /*$colorNav:rgba(179, 255, 218, .7);*/
 /*rgba(0, 102, 102, .5);*/
@@ -415,6 +415,14 @@ a {
   .wrapForinnerFoto:hover {
     background-color: #E0FFFF; }
 
+.wrapForinnerFotoNoneLink {
+  text-align: center;
+  border: 3px double SkyBlue;
+  padding: 0;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+          box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5); }
+
 .wrapForinnerFotoRecommend {
   text-align: center;
   border: 1px solid SkyBlue;
@@ -466,17 +474,20 @@ li {
 .mainDescr {
   width: 100%;
   text-align: center;
-  font-size: 34px; }
+  font-size: 34px;
+  font-size: 2.125rem; }
 
 .underDescr {
   text-align: center;
   display: inline-block;
   background-color: #086897;
   color: #fff;
-  width: 100%; }
+  width: 100%;
+  margin-top: -3px; }
 
 .descr {
-  border: 1px solid #086897; }
+  border: 1px solid #086897;
+  margin: -8px 0; }
 
 .aboutShip {
   margin-bottom: 10px; }
@@ -553,7 +564,10 @@ a {
     line-height: 1.1; }
   .fix {
     width: 187px;
-    height: 169px; } }
+    height: 169px; }
+  .mainDescr {
+    line-height: 1.1;
+    font-size: 28px; } }
 
 table {
   width: 100%;
