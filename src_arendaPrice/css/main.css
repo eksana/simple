@@ -1,4 +1,10 @@
 /*@import '../blocks/__wrap_dividerA.scss';*/
+body, html, td {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  font-size: 18px; }
+
 .dividerA_table {
   width: 100%;
   margin-top: 40px;
@@ -23,7 +29,7 @@ hr {
 
 .inner1 {
   display: inline-block;
-  margin-left: 185px; }
+  margin-left: 70px; }
 
 .inner2 {
   display: inline-block;
@@ -104,9 +110,6 @@ hr {
 
 /*dop menu*/
 .dop-menu {
-  /*border-left: 5px solid #bbdbf2;
-    width: 30%;
-    margin: 0 auto;*/
   position: relative; }
   .dop-menu:before {
     content: '';
@@ -117,6 +120,7 @@ hr {
     height: 100%;
     background-color: skyblue; }
 
+/*file:///disain2015/dop-menu-bg.png*/
 .dop-menu a {
   display: block;
   font-size: 17px;
@@ -124,20 +128,25 @@ hr {
   background: url(/disain2015/dop-menu-bg.png) no-repeat top left;
   color: #085189;
   text-decoration: none; }
+  .dop-menu a:hover {
+    /*background-color:skyblue;*/
+    text-decoration: underline; }
 
 @media only screen and (max-width: 990px) {
   .dividerA_img {
     float: none; } }
 
 @media only screen and (max-width: 1200px) {
-  .inner1 {
-    display: inline-block;
-    margin-left: 40px;
-    text-align: center; }
-  .inner2 {
-    display: inline-block;
-    margin-left: -130px;
-    text-align: center; }
+  /*.inner1{
+	display: inline-block;
+	margin-left: 40px;
+	text-align: center;
+}
+.inner2{
+	display: inline-block;
+	margin-left: -130px;
+	text-align: center;
+}*/
   .for_table {
     text-align: center; } }
 
